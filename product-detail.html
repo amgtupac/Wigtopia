@@ -1,0 +1,1127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Details - Wigtopia</title>
+  <link rel="shortcut icon" href="assets/images/whatsapp-image-2025-09-14-at-04.01.04-7eaf7e29-removebg-preview-160x155.png" type="image/x-icon">
+  <link rel="stylesheet" href="assets/web/assets/mobirise-icons2/mobirise2.css">
+  <link rel="stylesheet" href="assets/web/assets/mobirise-icons/mobirise-icons.css">
+  <link rel="stylesheet" href="assets/web/assets/mobirise-icons-bold/mobirise-icons-bold.css">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-grid.min.css">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-reboot.min.css">
+  <link rel="stylesheet" href="assets/parallax/jarallax.css">
+  <link rel="stylesheet" href="assets/animatecss/animate.css">
+  <link rel="stylesheet" href="assets/dropdown/css/style.css">
+  <link rel="stylesheet" href="assets/socicon/css/styles.css">
+  <link rel="stylesheet" href="assets/theme/css/style.css">
+  <link rel="preload" href="https://fonts.googleapis.com/css?family=Luckiest+Guy:400&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Luckiest+Guy:400&display=swap"></noscript>
+  <link rel="preload" href="https://fonts.googleapis.com/css?family=Roboto+Condensed:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Condensed:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i&display=swap"></noscript>
+  <link rel="preload" href="https://fonts.googleapis.com/css?family=Yellowtail:400&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Yellowtail:400&display=swap"></noscript>
+  <link rel="preload" href="https://fonts.googleapis.com/css?family=Inter+Tight:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter+Tight:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i&display=swap"></noscript>
+  <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css?v=5A9wlu"><link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css?v=5A9wlu" type="text/css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css" rel="stylesheet">
+  <style>
+    :root {
+      --primary-color: #5b2700;
+      --secondary-color: #f8f9fa;
+      --accent-color: #dc3545;
+      --text-color: #333;
+      --light-text: #6c757d;
+    }
+
+    body {
+      font-family: 'Inter Tight', sans-serif;
+      color: var(--text-color);
+    }
+
+    /* Navigation Consistency with Shop Page */
+    .menu2 .navbar {
+      background: linear-gradient(135deg, var(--primary-color), #7a3c00);
+      box-shadow: 0 2px 10px rgba(91, 39, 0, 0.3);
+    }
+
+    .menu2 .navbar-brand img {
+      height: 5rem;
+      transition: transform 0.3s ease;
+    }
+
+    .menu2 .navbar-brand:hover img {
+      transform: scale(1.05);
+    }
+
+    .menu2 .navbar-caption {
+      font-size: 1.75rem;
+      font-weight: 700;
+      color: white !important;
+      margin-left: 0.5rem;
+    }
+
+    .menu2 .nav-link {
+      color: white !important;
+      font-weight: 500;
+      padding: 0.75rem 1rem;
+      transition: all 0.3s ease;
+    }
+
+    .menu2 .nav-link:hover {
+      color: #ffd700 !important;
+      background: rgba(255, 255, 255, 0.1);
+      border-radius: 6px;
+    }
+
+    .menu2 .nav-link i {
+      margin-right: 0.5rem;
+    }
+
+    /* Product Detail Section */
+    .product-detail {
+      padding-top: 8rem;
+      background: #fff;
+    }
+
+    .breadcrumb {
+      background-color: rgba(91, 39, 0, 0.1);
+      border-radius: 8px;
+      padding: 1rem;
+      margin-bottom: 2rem;
+    }
+
+    .breadcrumb-item a {
+      color: var(--primary-color);
+      text-decoration: none;
+    }
+
+    .breadcrumb-item a:hover {
+      text-decoration: underline;
+    }
+
+    /* Product Gallery */
+    .product-gallery {
+      position: relative;
+    }
+
+    .main-image {
+      width: 100%;
+      height: 500px;
+      object-fit: cover;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease;
+    }
+
+    .main-image:hover {
+      transform: scale(1.02);
+    }
+
+    .thumbnail-container {
+      display: flex;
+      gap: 12px;
+      overflow-x: auto;
+      padding: 1rem 0;
+      scrollbar-width: thin;
+      scrollbar-color: var(--primary-color) transparent;
+    }
+
+    .thumbnail-container::-webkit-scrollbar {
+      height: 6px;
+    }
+
+    .thumbnail-container::-webkit-scrollbar-track {
+      background: #f1f1f1;
+    }
+
+    .thumbnail-container::-webkit-scrollbar-thumb {
+      background: var(--primary-color);
+      border-radius: 3px;
+    }
+
+    .thumbnail {
+      width: 90px;
+      height: 90px;
+      object-fit: cover;
+      border-radius: 8px;
+      cursor: pointer;
+      border: 2px solid transparent;
+      transition: all 0.3s ease;
+      flex-shrink: 0;
+    }
+
+    .thumbnail:hover,
+    .thumbnail.active {
+      border-color: var(--primary-color);
+      transform: scale(1.05);
+      box-shadow: 0 4px 12px rgba(91, 39, 0, 0.2);
+    }
+
+    /* Product Info */
+    .product-info {
+      padding-left: 2rem;
+    }
+
+    .product-title {
+      font-size: 2.25rem;
+      font-weight: 700;
+      color: var(--text-color);
+      margin-bottom: 1rem;
+      line-height: 1.2;
+    }
+
+    .rating {
+      display: flex;
+      align-items: center;
+      gap: 0.25rem;
+      margin-bottom: 1rem;
+    }
+
+    .rating i {
+      font-size: 1.1rem;
+      color: #ffc107;
+    }
+
+    .product-price {
+      font-size: 2rem;
+      font-weight: 700;
+      color: var(--primary-color);
+      margin: 1.5rem 0;
+    }
+
+    .original-price {
+      font-size: 1.25rem;
+      color: var(--light-text);
+      text-decoration: line-through;
+      margin-left: 1rem;
+    }
+
+    .product-meta p {
+      font-size: 0.95rem;
+      margin-bottom: 0.75rem;
+      color: var(--text-color);
+    }
+
+    .product-meta strong {
+      color: var(--primary-color);
+    }
+
+    .product-description {
+      font-size: 1rem;
+      line-height: 1.7;
+      color: var(--light-text);
+      margin: 2rem 0;
+    }
+
+    /* Quantity Selector */
+    .quantity-selector {
+      margin: 2rem 0;
+    }
+
+    .quantity-selector label {
+      font-weight: 600;
+      color: var(--text-color);
+      margin-bottom: 0.5rem;
+      display: block;
+    }
+
+    .input-group {
+      max-width: 150px;
+    }
+
+    .btn-outline-secondary {
+      border-color: #dee2e6;
+      color: var(--text-color);
+    }
+
+    .btn-outline-secondary:hover {
+      background: var(--secondary-color);
+      border-color: var(--primary-color);
+      color: var(--primary-color);
+    }
+
+    /* Buttons */
+    .btn-primary {
+      background-color: var(--primary-color);
+      border-color: var(--primary-color);
+      border-radius: 8px;
+      padding: 1rem 2rem;
+      font-weight: 600;
+      transition: all 0.3s ease;
+    }
+
+    .btn-primary:hover {
+      background-color: #4a1f00;
+      border-color: #4a1f00;
+      transform: translateY(-2px);
+      box-shadow: 0 4px 12px rgba(91, 39, 0, 0.3);
+    }
+
+    .btn-outline-danger {
+      border-radius: 50%;
+      width: 55px;
+      height: 55px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: all 0.3s ease;
+    }
+
+    .btn-outline-danger:hover {
+      background: var(--accent-color);
+      border-color: var(--accent-color);
+      color: white;
+      transform: scale(1.1);
+    }
+
+    /* Social Share */
+    .social-share a {
+      font-size: 1.5rem;
+      transition: color 0.3s ease;
+    }
+
+    .social-share a:hover {
+      color: var(--primary-color) !important;
+    }
+
+    /* Tabs */
+    .nav-tabs {
+      border-bottom: 2px solid #eee;
+      margin-bottom: 0;
+    }
+
+    .nav-tabs .nav-link {
+      border: none;
+      color: var(--light-text);
+      font-weight: 500;
+      padding: 1rem 1.5rem;
+      border-radius: 0;
+      transition: all 0.3s ease;
+    }
+
+    .nav-tabs .nav-link:hover,
+    .nav-tabs .nav-link.active {
+      color: var(--primary-color);
+      border-bottom: 2px solid var(--primary-color);
+      background: var(--secondary-color);
+    }
+
+    .tab-content {
+      background: white;
+      border: 1px solid #eee;
+      border-top: none;
+      border-radius: 0 0 12px 12px;
+      padding: 2rem;
+    }
+
+    /* Reviews */
+    .review-item {
+      border-bottom: 1px solid #eee;
+      padding-bottom: 1.5rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .review-item h5 {
+      color: var(--text-color);
+      margin-bottom: 0.5rem;
+    }
+
+    .review-item .text-muted {
+      font-size: 0.9rem;
+    }
+
+    /* Related Products */
+    #related-products .card {
+      border: none;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+      transition: all 0.3s ease;
+      height: 100%;
+    }
+
+    #related-products .card:hover {
+      box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+      transform: translateY(-4px);
+    }
+
+    #related-products .card-img-top {
+      height: 200px;
+      object-fit: cover;
+    }
+
+    #related-products .card-title {
+      font-size: 1.1rem;
+      font-weight: 600;
+      margin-bottom: 0.5rem;
+    }
+
+    #related-products .card-text {
+      font-weight: 700;
+      color: var(--primary-color);
+      font-size: 1.1rem;
+    }
+
+    /* Footer Consistency */
+    .footer4 {
+      background: linear-gradient(135deg, var(--primary-color), #7a3c00);
+      color: white;
+      padding: 3rem 0 1rem;
+    }
+
+    .footer4 .mbr-overlay {
+      background-color: rgba(91, 39, 0, 0.8) !important;
+    }
+
+    .footer4 h5 {
+      font-weight: 600;
+      margin-bottom: 1rem;
+    }
+
+    .footer4 a {
+      color: rgba(255, 255, 255, 0.8);
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+
+    .footer4 a:hover {
+      color: white;
+    }
+
+    .footer4 .social-list a {
+      font-size: 1.5rem;
+      margin-right: 1rem;
+    }
+
+    /* Mobile Responsiveness */
+    @media (max-width: 991.98px) {
+      .product-detail {
+        padding-top: 7rem;
+      }
+
+      .product-info {
+        padding-left: 0;
+        padding-top: 2rem;
+      }
+
+      .product-title {
+        font-size: 1.75rem;
+      }
+
+      .product-price {
+        font-size: 1.75rem;
+      }
+
+      .main-image {
+        height: 350px;
+      }
+
+      .thumbnail {
+        width: 70px;
+        height: 70px;
+      }
+
+      .nav-tabs .nav-link {
+        padding: 0.75rem 1rem;
+        font-size: 0.9rem;
+      }
+
+      .tab-content {
+        padding: 1.5rem;
+      }
+
+      #related-products .col-lg-3 {
+        margin-bottom: 1.5rem;
+      }
+    }
+
+    @media (max-width: 575.98px) {
+      .menu2 .navbar-nav {
+        text-align: center;
+      }
+
+      .menu2 .nav-link {
+        padding: 0.5rem;
+      }
+
+      .product-title {
+        font-size: 1.5rem;
+      }
+
+      .product-price {
+        font-size: 1.5rem;
+      }
+
+      .main-image {
+        height: 280px;
+      }
+
+      .thumbnail-container {
+        gap: 8px;
+      }
+
+      .thumbnail {
+        width: 60px;
+        height: 60px;
+      }
+
+      .btn-primary {
+        padding: 0.875rem 1.5rem;
+      }
+
+      .btn-outline-danger {
+        width: 45px;
+        height: 45px;
+      }
+
+      .social-share a {
+        font-size: 1.25rem;
+      }
+    }
+
+    /* Accessibility */
+    .sr-only {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      padding: 0;
+      margin: -1px;
+      overflow: hidden;
+      clip: rect(0, 0, 0, 0);
+      white-space: nowrap;
+      border: 0;
+    }
+
+    .btn:focus,
+    .form-control:focus,
+    .nav-link:focus {
+      outline: 2px solid var(--primary-color);
+      outline-offset: 2px;
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      * {
+        animation-duration: 0.01ms !important;
+        transition-duration: 0.01ms !important;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- Navigation (Consistent with Shop Page) -->
+  <section data-bs-version="5.1" class="menu menu2 cid-tJS6tZXiPa" once="menu" id="menu02-25">
+    <nav class="navbar navbar-dropdown navbar-fixed-top navbar-expand-lg">
+      <div class="container">
+        <div class="navbar-brand">
+          <span class="navbar-logo">
+            <img src="assets/images/whatsapp-image-2025-09-14-at-04.01.04-7eaf7e29-removebg-preview-160x155.png" alt="Wigtopia Logo" style="height: 5rem;">
+          </span>
+          <span class="navbar-caption-wrap"><a class="navbar-caption text-white text-primary display-4" href="index.html#header05-1">WIGTOPIA</a></span>
+        </div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbarSupportedContent" data-bs-target="#navbarSupportedContent" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav nav-dropdown nav-right" data-app-modern-menu="true">
+            <li class="nav-item">
+              <a class="nav-link link text-white display-4" href="index.html"><span class="mbrib-home mbr-iconfont mbr-iconfont-btn"></span>Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link text-white display-4 active" href="page4.html"><span class="mbrib-shopping-bag mbr-iconfont mbr-iconfont-btn"></span>Shop</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link text-white display-4" href="page5.html"><span class="mbrib-info mbr-iconfont mbr-iconfont-btn"></span>About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link text-white display-4" href="page3.html"><span class="mbrib-rocket mbr-iconfont mbr-iconfont-btn"></span>Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link text-white display-4" href="page2.html"><span class="mbrib-contact-form mbr-iconfont mbr-iconfont-btn"></span>Contact</a>
+            </li>
+          </ul>
+          <div class="navbar-buttons ms-auto d-none d-lg-flex">
+            <a href="#" class="btn btn-white display-4" id="cart-toggle">
+              <span class="mbrib-shopping-cart mbr-iconfont mbr-iconfont-btn me-2"></span>Cart
+              <span class="badge bg-danger ms-1 cart-count">0</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </section>
+
+  <!-- Product Detail Section -->
+  <section class="product-detail">
+    <div class="container">
+      <nav aria-label="breadcrumb" class="mb-4">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+          <li class="breadcrumb-item"><a href="page4.html">Shop</a></li>
+          <li class="breadcrumb-item" id="product-category-breadcrumb">Human Hair Wigs</li>
+          <li class="breadcrumb-item active" aria-current="page" id="product-name-breadcrumb">Product Name</li>
+        </ol>
+      </nav>
+      
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="product-gallery">
+            <img src="" alt="Main Product Image" class="main-image" id="main-image">
+            <div class="thumbnail-container" id="thumbnail-container">
+              <!-- Thumbnails will be added here by JavaScript -->
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="product-info">
+            <h1 class="product-title" id="product-title">Product Title</h1>
+            <div class="rating mb-3">
+              <i class="bi bi-star-fill text-warning"></i>
+              <i class="bi bi-star-fill text-warning"></i>
+              <i class="bi bi-star-fill text-warning"></i>
+              <i class="bi bi-star-fill text-warning"></i>
+              <i class="bi bi-star text-warning"></i>
+              <span class="ms-2 text-muted">(24 reviews)</span>
+            </div>
+            <div class="product-price">
+              $<span id="product-price">0.00</span>
+              <small class="original-price" id="original-price"></small>
+            </div>
+            
+            <div class="product-meta">
+              <p><strong>Brand:</strong> <span id="product-brand">-</span></p>
+              <p><strong>Availability:</strong> <span class="text-success">In Stock</span></p>
+              <p><strong>Category:</strong> <span id="product-category-display">-</span></p>
+            </div>
+            
+            <p class="product-description" id="product-description">
+              Product description will be loaded here.
+            </p>
+            
+            <div class="quantity-selector">
+              <label for="quantity" class="form-label">Quantity:</label>
+              <div class="input-group">
+                <button class="btn btn-outline-secondary" type="button" id="decrease-qty" aria-label="Decrease quantity">-</button>
+                <input type="number" class="form-control text-center" id="quantity" value="1" min="1" aria-label="Quantity">
+                <button class="btn btn-outline-secondary" type="button" id="increase-qty" aria-label="Increase quantity">+</button>
+              </div>
+            </div>
+            
+            <div class="d-flex gap-2">
+              <button class="btn btn-primary btn-lg flex-grow-1" id="add-to-cart">
+                <i class="bi bi-cart-plus me-2"></i>Add to Cart
+              </button>
+              <button class="btn btn-outline-danger btn-lg" id="add-to-wishlist" aria-label="Add to wishlist">
+                <i class="bi bi-heart"></i>
+              </button>
+            </div>
+            
+            <div class="mt-4">
+              <h5>Share this product:</h5>
+              <div class="social-share">
+                <a href="#" class="text-dark me-3" aria-label="Share on Facebook"><i class="bi bi-facebook"></i></a>
+                <a href="#" class="text-dark me-3" aria-label="Share on Twitter"><i class="bi bi-twitter"></i></a>
+                <a href="#" class="text-dark me-3" aria-label="Share on Instagram"><i class="bi bi-instagram"></i></a>
+                <a href="#" class="text-dark me-3" aria-label="Share on Pinterest"><i class="bi bi-pinterest"></i></a>
+                <a href="#" class="text-dark" aria-label="Share via Email"><i class="bi bi-envelope"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Product Tabs -->
+      <div class="row mt-5">
+        <div class="col-12">
+          <ul class="nav nav-tabs" id="productTabs" role="tablist">
+            <li class="nav-item" role="presentation">
+              <button class="nav-link active" id="description-tab" data-bs-toggle="tab" data-bs-target="#description" type="button" role="tab" aria-controls="description" aria-selected="true">Description</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="specs-tab" data-bs-toggle="tab" data-bs-target="#specs" type="button" role="tab" aria-controls="specs" aria-selected="false">Specifications</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="reviews-tab" data-bs-toggle="tab" data-bs-target="#reviews" type="button" role="tab" aria-controls="reviews" aria-selected="false">Reviews (24)</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="shipping-tab" data-bs-toggle="tab" data-bs-target="#shipping" type="button" role="tab" aria-controls="shipping" aria-selected="false">Shipping & Returns</button>
+            </li>
+          </ul>
+          <div class="tab-content p-3 border border-top-0 rounded-bottom" id="productTabsContent">
+            <div class="tab-pane fade show active" id="description" role="tabpanel" aria-labelledby="description-tab">
+              <h4>Product Description</h4>
+              <div id="product-full-description">
+                Full product description will be loaded here.
+              </div>
+            </div>
+            <div class="tab-pane fade" id="specs" role="tabpanel" aria-labelledby="specs-tab">
+              <h4>Product Specifications</h4>
+              <table class="table table-striped">
+                <tbody id="product-specs">
+                  <!-- Specifications will be added by JavaScript -->
+                </tbody>
+              </table>
+            </div>
+            <div class="tab-pane fade" id="reviews" role="tabpanel" aria-labelledby="reviews-tab">
+              <h4>Customer Reviews</h4>
+              <div class="row">
+                <div class="col-md-4 text-center">
+                  <h1 class="display-4 text-primary">4.8</h1>
+                  <div class="mb-2">
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-half text-warning"></i>
+                  </div>
+                  <p class="text-muted">Based on 24 reviews</p>
+                </div>
+                <div class="col-md-8">
+                  <div class="review-item mb-4">
+                    <div class="d-flex justify-content-between align-items-start">
+                      <h5>Amazing Quality</h5>
+                      <div class="text-warning">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                      </div>
+                    </div>
+                    <p class="text-muted small">By Sarah J. on September 15, 2025</p>
+                    <p>This wig exceeded my expectations! The quality is amazing and it looks so natural. I get compliments every time I wear it.</p>
+                  </div>
+                  <div class="review-item mb-4">
+                    <div class="d-flex justify-content-between align-items-start">
+                      <h5>Perfect Fit</h5>
+                      <div class="text-warning">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star"></i>
+                      </div>
+                    </div>
+                    <p class="text-muted small">By John D. on September 10, 2025</p>
+                    <p>Great product, fast shipping. Highly recommend for anyone looking for a high-quality wig.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="shipping" role="tabpanel" aria-labelledby="shipping-tab">
+              <h4>Shipping & Returns</h4>
+              <h5>Shipping Policy</h5>
+              <p>We offer worldwide shipping. Most orders are processed within 1-2 business days and delivered within 5-10 business days. Shipping times may vary depending on your location.</p>
+              
+              <h5 class="mt-4">Returns & Exchanges</h5>
+              <p>We accept returns within 30 days of purchase for a full refund. Items must be in their original condition with all tags attached. Please contact our customer service for return instructions.</p>
+              
+              <h5 class="mt-4">Warranty</h5>
+              <p>All our wigs come with a 6-month warranty against manufacturing defects. Normal wear and tear is not covered under this warranty.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Related Products -->
+      <div class="row mt-5">
+        <div class="col-12">
+          <h3 class="mb-4">You May Also Like</h3>
+          <div class="row" id="related-products">
+            <!-- Related products will be added here by JavaScript -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer (Consistent with Shop Page) -->
+  <section data-bs-version="5.1" class="footer4 cid-uWM4NR2o0S mbr-parallax-background" once="footers" id="footer4-26">
+    <div class="mbr-overlay" style="opacity: 0.7; background-color: rgb(91, 39, 0);"></div>
+    <div class="container">
+      <div class="row mbr-white">
+        <div class="col-6 col-lg-3">
+          <div class="media-wrap col-md-12 col-12">
+            <a href="https://mobiri.se/">
+              <img src="assets/images/whatsapp-image-2025-09-14-at-04.01.04-7eaf7e29-removebg-preview-160x155.png" alt="Mobirise Website Builder">
+            </a>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3">
+          <h5 class="mbr-section-subtitle mbr-fonts-style mb-2 display-7"><strong>Contact</strong></h5>
+          <p class="mbr-text mbr-fonts-style mb-4 display-4">Wigtopia&nbsp; Luxury Hair Supplier.<br>Room 305, Building 2, Hair products<br>Industrial Zone&nbsp;<br>+ 85262846803<br>Yuzhou Road, Xuchang City, Henan<br>Province, China- 461000</p>
+          <h5 class="mbr-section-subtitle mbr-fonts-style mb-3 display-7">
+            <strong>Follow Us</strong>
+          </h5>
+          <div class="social-row display-7">
+            <div class="soc-item">
+              <a href="https://twitter.com/mobirise" target="_blank" aria-label="Follow us on WhatsApp">
+                <span class="mbr-iconfont socicon-whatsapp socicon" style="color: rgb(166, 169, 156); fill: rgb(166, 169, 156);"></span>
+              </a>
+            </div>
+            <div class="soc-item">
+              <a href="https://twitter.com/mobirise" target="_blank" aria-label="Follow us on Facebook">
+                <span class="mbr-iconfont socicon-facebook socicon" style="color: rgb(166, 169, 156); fill: rgb(166, 169, 156);"></span>
+              </a>
+            </div>
+            <div class="soc-item">
+              <a href="https://twitter.com/mobirise" target="_blank" aria-label="Follow us on Snapchat">
+                <span class="mbr-iconfont socicon-snapchat socicon" style="color: rgb(166, 169, 156); fill: rgb(166, 169, 156);"></span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3">
+          <h5 class="mbr-section-subtitle mbr-fonts-style mb-2 display-7"><strong>Legal Terms&nbsp;&nbsp;</strong></h5>
+          <ul class="list mbr-fonts-style display-4">
+            <li class="mbr-text item-wrap">Terms</li>
+            <li class="mbr-text item-wrap"><span style="font-size: 1.4rem;">Privacy</span></li><li class="mbr-text item-wrap"><span style="font-size: 1.4rem;">Team</span></li><li class="mbr-text item-wrap"><br></li>
+          </ul>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3">
+          <h5 class="mbr-section-subtitle mbr-fonts-style mb-2 display-7"><strong>Pages</strong></h5>
+          <ul class="list mbr-fonts-style display-4">
+            <li class="mbr-text item-wrap"><a href="page4.html" class="text-white">Products </a></li><li class="mbr-text item-wrap"><a href="page2.html" class="text-white">Contacts&nbsp;</a></li><li class="mbr-text item-wrap"><span style="font-size: 1.4rem;"><a href="page3.html" class="text-white">Services&nbsp;</a></span></li><li class="mbr-text item-wrap"><a href="page5.html" class="text-white">About us.</a></li>
+          </ul>
+        </div>
+        <div class="col-12 mt-4">
+          <p class="mbr-text mb-0 mbr-fonts-style copyright align-center display-4"><em>
+            © Copyright 2025&nbsp;wigtopialuxury - All Rights Reserved
+          </em></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Add to Cart Toast -->
+  <div class="position-fixed bottom-0 end-0 p-3" style="z-index: 1060">
+    <div id="addToCartToast" class="toast align-items-center text-white bg-primary border-0" role="alert" aria-live="assertive" aria-atomic="true">
+      <div class="d-flex">
+        <div class="toast-body">
+          <i class="bi bi-cart-check-fill me-2"></i>Item has been added to your cart!
+        </div>
+        <button type="button" class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Wishlist Toast -->
+  <div class="position-fixed bottom-0 end-0 p-3" style="z-index: 1060">
+    <div id="wishlistToast" class="toast align-items-center text-white bg-success border-0" role="alert" aria-live="assertive" aria-atomic="true">
+      <div class="d-flex">
+        <div class="toast-body">
+          <i class="bi bi-heart-fill me-2"></i>Item added to wishlist!
+        </div>
+        <button type="button" class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></button>
+      </div>
+    </div>
+  </div>
+
+  <script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/parallax/jarallax.js"></script>
+  <script src="assets/smoothscroll/smooth-scroll.js"></script>
+  <script src="assets/ytplayer/index.js"></script>
+  <script src="assets/dropdown/js/navbar-dropdown.js"></script>
+  <script src="assets/theme/js/script.js"></script>
+
+  <div id="scrollToTop" class="scrollToTop mbr-arrow-up"><a style="text-align: center;"><i class="mbr-arrow-up-icon mbr-arrow-up-icon-cm cm-icon cm-icon-smallarrow-up"></i></a></div>
+  <input name="animation" type="hidden">
+
+  <script>
+    // Shared Cart System
+    let cart = JSON.parse(localStorage.getItem('wigtopiaCart')) || [];
+    const cartCounts = document.querySelectorAll('.cart-count');
+
+    function updateCartCount() {
+      const itemCount = cart.reduce((sum, item) => sum + item.quantity, 0);
+      cartCounts.forEach(counter => counter.textContent = itemCount);
+    }
+
+    function addToCart(id, name, price, image = null, quantity = 1) {
+      const existingItem = cart.find(item => item.id === id);
+      if (existingItem) {
+        existingItem.quantity += quantity;
+      } else {
+        cart.push({
+          id,
+          name,
+          price: parseFloat(price),
+          quantity,
+          image
+        });
+      }
+      localStorage.setItem('wigtopiaCart', JSON.stringify(cart));
+      updateCartCount();
+      showToast('addToCartToast', `${quantity} ${name} added to cart!`);
+    }
+
+    function showToast(toastId, message) {
+      const toastEl = document.getElementById(toastId);
+      const toastBody = toastEl.querySelector('.toast-body');
+      toastBody.innerHTML = `<i class="bi bi-check-circle-fill me-2"></i>${message}`;
+      const toast = new bootstrap.Toast(toastEl);
+      toast.show();
+    }
+
+    // Product Data
+    const products = {
+      'silky-straight': {
+        id: 1,
+        name: 'Silky Straight Lace Front',
+        category: 'Human Hair Wigs',
+        price: 249.99,
+        originalPrice: 299.99,
+        brand: 'Premium',
+        description: 'Honey Blonde HD lace front wig pre plucked. Body wave Honey Blonde Wig Human Hair 200% Density Lace Frontal Wigs Colored 27# 30 inch.',
+        fullDescription: '<p>This stunning Silky Straight Lace Front Wig is made from 100% premium human hair. The HD lace front creates a natural-looking hairline, while the 200% density provides a full and voluminous look. The wig comes pre-plucked with a natural hairline and bleached knots for a realistic appearance.</p><p>Features:</p><ul><li>100% Virgin Human Hair</li><li>HD Lace Front</li><li>200% Density</li><li>Pre-plucked Hairline</li><li>Bleached Knots</li><li>30 Inches Length</li><li>Color: 27# Honey Blonde</li></ul>',
+        images: [
+          'assets/shopitems/item 1 (1).jpg',
+          'assets/shopitems/item 1 (2).jpg',
+          'assets/shopitems/item 1 (3).jpg',
+          'assets/shopitems/item 1 (4).jpg',
+          'assets/shopitems/item 1 (5).jpg',
+          'assets/shopitems/item 1 (6).jpg'
+        ],
+        specs: {
+          'Material': '100% Human Hair',
+          'Lace Type': 'HD Lace',
+          'Density': '200%',
+          'Length': '30 inches',
+          'Color': '27# Honey Blonde',
+          'Cap Size': 'Average (22.5 inches)',
+          'Hair Type': 'Brazilian Virgin Hair',
+          'Lifespan': '1+ years with proper care'
+        },
+        related: ['body-wave', 'deep-wave', 'kinky-twist']
+      },
+      'body-wave': {
+        id: 2,
+        name: 'Body Wave Brazilian',
+        category: 'Human Hair Wigs',
+        price: 189.99,
+        brand: 'Luxury',
+        description: 'Natural looking body wave wig made from premium Brazilian hair. This wig features a natural wave pattern that adds volume and movement to your look.',
+        fullDescription: '<p>Our Body Wave Brazilian wig is crafted from 100% premium Brazilian human hair. The natural wave pattern provides a voluminous and bouncy look that is both stylish and easy to maintain. The wig features a comfortable cap construction with adjustable straps for a secure fit.</p><p>Features:</p><ul><li>100% Brazilian Human Hair</li><li>Natural Wave Pattern</li><li>Medium Density</li><li>Adjustable Straps</li><li>Breathable Cap</li><li>24-26 Inches Length</li><li>Color: Natural Black</li></ul>',
+        images: [
+          'assets/shopitems/item 2 (1).jpg',
+          'assets/shopitems/item 2 (2).jpg',
+          'assets/shopitems/item 2 (3).jpg',
+          'assets/shopitems/item 2 (4).jpg',
+          'assets/shopitems/item 2 (5).jpg'
+        ],
+        specs: {
+          'Material': '100% Brazilian Human Hair',
+          'Style': 'Body Wave',
+          'Length': '24-26 Inches',
+          'Density': 'Medium',
+          'Cap Construction': 'Adjustable Straps',
+          'Lifespan': '6-12 months with proper care',
+          'Maintenance': 'Wash every 7-14 days'
+        },
+        related: ['silky-straight', 'kinky-twist']
+      },
+      'deep-wave': {
+        id: 4,
+        name: 'Deep Wave Lace Front',
+        category: 'Human Hair Wigs',
+        price: 299.99,
+        originalPrice: 349.99,
+        brand: 'Luxury',
+        description: 'Luxurious deep wave pattern with natural looking lace front for a glamorous look.',
+        fullDescription: '<p>Experience the beauty of our Deep Wave Lace Front wig, featuring a luxurious wave pattern that adds volume and dimension to your style. Made from 100% human hair, this wig offers a natural look with its HD lace front and medium density.</p><p>Features:</p><ul><li>100% Human Hair</li><li>HD Lace Front</li><li>Deep Wave Pattern</li><li>Medium Density</li><li>Pre-plucked Hairline</li><li>Bleached Knots</li><li>28-30 Inches Length</li><li>Color: #2 Natural Black</li></ul>',
+        images: [
+          'assets/shopitems/item 2 (1).jpg',
+          'assets/shopitems/item 2 (2).jpg',
+          'assets/shopitems/item 2 (3).jpg',
+          'assets/shopitems/item 2 (4).jpg',
+          'assets/shopitems/item 2 (5).jpg'
+        ],
+        specs: {
+          'Material': '100% Human Hair',
+          'Lace Type': 'HD Lace',
+          'Style': 'Deep Wave',
+          'Length': '28-30 Inches',
+          'Density': 'Medium',
+          'Cap Construction': 'Lace Front with Adjustable Straps',
+          'Lifespan': '1+ years with proper care',
+          'Maintenance': 'Wash every 7-10 days'
+        },
+        related: ['silky-straight', 'body-wave']
+      },
+      'kinky-twist': {
+        id: 9,
+        name: 'Kinky Twist Human Hair',
+        category: 'Human Hair Wigs',
+        price: 199.99,
+        originalPrice: 249.99,
+        brand: 'Premium',
+        description: 'Beautiful kinky twist style with natural looking texture for a bold and trendy look.',
+        fullDescription: '<p>Our Kinky Twist Human Hair wig features a unique twist pattern that creates a full and voluminous look. Made from 100% human hair, this wig offers a natural appearance with its kinky texture and medium density.</p><p>Features:</p><ul><li>100% Human Hair</li><li>Kinky Twist Pattern</li><li>Medium to High Density</li><li>Breathable Cap</li><li>Adjustable Straps</li><li>18-20 Inches Length</li><li>Color: 1B Natural Black</li></ul>',
+        images: [
+          'assets/shopitems/item 1 (1).jpg',
+          'assets/shopitems/item 1 (2).jpg',
+          'assets/shopitems/item 1 (3).jpg',
+          'assets/shopitems/item 1 (4).jpg',
+          'assets/shopitems/item 1 (5).jpg',
+          'assets/shopitems/item 1 (6).jpg'
+        ],
+        specs: {
+          'Material': '100% Human Hair',
+          'Style': 'Kinky Twist',
+          'Length': '18-20 Inches',
+          'Density': 'Medium to High',
+          'Cap Construction': 'Adjustable Straps with Combs',
+          'Lifespan': '8-12 months with proper care',
+          'Maintenance': 'Wash every 10-14 days'
+        },
+        related: ['body-wave', 'deep-wave']
+      }
+    };
+
+    // Load Product
+    function loadProduct() {
+      const urlParams = new URLSearchParams(window.location.search);
+      const productId = urlParams.get('id');
+      const product = products[productId] || products['silky-straight'];
+      
+      // Update page title
+      document.title = `${product.name} - Wigtopia`;
+      
+      // Update breadcrumbs
+      document.getElementById('product-category-breadcrumb').textContent = product.category;
+      document.getElementById('product-name-breadcrumb').textContent = product.name;
+      document.getElementById('product-category-display').textContent = product.category;
+      
+      // Update product info
+      document.getElementById('product-title').textContent = product.name;
+      document.getElementById('product-price').textContent = product.price.toFixed(2);
+      const originalPriceEl = document.getElementById('original-price');
+      if (product.originalPrice) {
+        originalPriceEl.textContent = `$${product.originalPrice.toFixed(2)}`;
+        originalPriceEl.style.display = 'inline';
+      } else {
+        originalPriceEl.style.display = 'none';
+      }
+      document.getElementById('product-brand').textContent = product.brand;
+      document.getElementById('product-description').textContent = product.description;
+      
+      // Full description
+      if (product.fullDescription) {
+        document.getElementById('product-full-description').innerHTML = product.fullDescription;
+      }
+      
+      // Specifications
+      if (product.specs) {
+        const specsContainer = document.getElementById('product-specs');
+        specsContainer.innerHTML = '';
+        for (const [key, value] of Object.entries(product.specs)) {
+          const row = document.createElement('tr');
+          row.innerHTML = `<th scope="row">${key}:</th><td>${value}</td>`;
+          specsContainer.appendChild(row);
+        }
+      }
+      
+      // Images
+      const mainImage = document.getElementById('main-image');
+      const thumbnailContainer = document.getElementById('thumbnail-container');
+      if (product.images && product.images.length > 0) {
+        mainImage.src = product.images[0];
+        mainImage.alt = product.name;
+        thumbnailContainer.innerHTML = '';
+        product.images.forEach((image, index) => {
+          const thumbnail = document.createElement('img');
+          thumbnail.src = image;
+          thumbnail.alt = `${product.name} - View ${index + 1}`;
+          thumbnail.className = `thumbnail ${index === 0 ? 'active' : ''}`;
+          thumbnail.addEventListener('click', () => {
+            mainImage.src = image;
+            mainImage.alt = thumbnail.alt;
+            document.querySelectorAll('.thumbnail').forEach(thumb => thumb.classList.remove('active'));
+            thumbnail.classList.add('active');
+          });
+          thumbnailContainer.appendChild(thumbnail);
+        });
+      }
+      
+      // Related Products
+      if (product.related) {
+        const relatedContainer = document.getElementById('related-products');
+        relatedContainer.innerHTML = '';
+        product.related.forEach(relatedId => {
+          const relatedProduct = products[relatedId];
+          if (relatedProduct && relatedProduct.images.length > 0) {
+            const col = document.createElement('div');
+            col.className = 'col-6 col-md-4 col-lg-3 mb-4';
+            col.innerHTML = `
+              <div class="card h-100">
+                <img src="${relatedProduct.images[0]}" class="card-img-top" alt="${relatedProduct.name}" style="height: 200px; object-fit: cover;">
+                <div class="card-body d-flex flex-column">
+                  <h5 class="card-title">${relatedProduct.name}</h5>
+                  <p class="card-text text-primary fw-bold mb-auto">$${relatedProduct.price.toFixed(2)}</p>
+                  <a href="?id=${relatedId}" class="btn btn-primary mt-auto">View Details</a>
+                </div>
+              </div>
+            `;
+            relatedContainer.appendChild(col);
+          }
+        });
+      }
+    }
+
+    // Event Listeners
+    document.addEventListener('DOMContentLoaded', function() {
+      loadProduct();
+      updateCartCount();
+
+      // Quantity Controls
+      const quantityInput = document.getElementById('quantity');
+      document.getElementById('decrease-qty').addEventListener('click', () => {
+        let val = parseInt(quantityInput.value);
+        if (val > 1) quantityInput.value = val - 1;
+      });
+      document.getElementById('increase-qty').addEventListener('click', () => {
+        let val = parseInt(quantityInput.value);
+        quantityInput.value = val + 1;
+      });
+
+      // Add to Cart
+      document.getElementById('add-to-cart').addEventListener('click', () => {
+        const urlParams = new URLSearchParams(window.location.search);
+        const productId = urlParams.get('id');
+        const product = products[productId] || products['silky-straight'];
+        const qty = parseInt(quantityInput.value);
+        addToCart(product.id, product.name, product.price, product.images[0], qty);
+      });
+
+      // Add to Wishlist
+      document.getElementById('add-to-wishlist').addEventListener('click', (e) => {
+        e.preventDefault();
+        const urlParams = new URLSearchParams(window.location.search);
+        const productId = urlParams.get('id');
+        const product = products[productId] || products['silky-straight'];
+        let wishlist = JSON.parse(localStorage.getItem('wigtopiaWishlist')) || [];
+        if (!wishlist.includes(product.id)) {
+          wishlist.push(product.id);
+          localStorage.setItem('wigtopiaWishlist', JSON.stringify(wishlist));
+          showToast('wishlistToast', `${product.name} added to wishlist!`);
+          e.target.classList.add('text-danger');
+          e.target.querySelector('i').classList.add('bi-heart-fill');
+        }
+      });
+
+      // Cart Toggle (links to shop or cart page)
+      document.getElementById('cart-toggle')?.addEventListener('click', (e) => {
+        e.preventDefault();
+        window.location.href = 'page4.html'; // Or dedicated cart page
+      });
+    });
+  </script>
+</body>
+</html>
