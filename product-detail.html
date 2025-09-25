@@ -1,0 +1,2146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Details - Wigtopia</title>
+  <link rel="shortcut icon" href="assets/images/whatsapp-image-2025-09-14-at-04.01.04-7eaf7e29-removebg-preview-160x155.png" type="image/x-icon">
+  <link rel="stylesheet" href="assets/web/assets/mobirise-icons2/mobirise2.css">
+  <link rel="stylesheet" href="assets/web/assets/mobirise-icons/mobirise-icons.css">
+  <link rel="stylesheet" href="assets/web/assets/mobirise-icons-bold/mobirise-icons-bold.css">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-grid.min.css">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-reboot.min.css">
+  <link rel="stylesheet" href="assets/parallax/jarallax.css">
+  <link rel="stylesheet" href="assets/animatecss/animate.css">
+  <link rel="stylesheet" href="assets/dropdown/css/style.css">
+  <link rel="stylesheet" href="assets/socicon/css/styles.css">
+  <link rel="stylesheet" href="assets/theme/css/style.css">
+  <link rel="preload" href="https://fonts.googleapis.com/css?family=Luckiest+Guy:400&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Luckiest+Guy:400&display=swap"></noscript>
+  <link rel="preload" href="https://fonts.googleapis.com/css?family=Roboto+Condensed:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Condensed:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i&display=swap"></noscript>
+  <link rel="preload" href="https://fonts.googleapis.com/css?family=Yellowtail:400&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Yellowtail:400&display=swap"></noscript>
+  <link rel="preload" href="https://fonts.googleapis.com/css?family=Inter+Tight:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter+Tight:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i&display=swap"></noscript>
+  <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css?v=5A9wlu"><link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css?v=5A9wlu" type="text/css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css" rel="stylesheet">
+  <style>
+    :root {
+      --primary-color: #5b2700;
+      --secondary-color: #f8f9fa;
+      --accent-color: #dc3545;
+      --text-color: #333;
+      --light-text: #6c757d;
+    }
+
+    body {
+      font-family: 'Inter Tight', sans-serif;
+      color: var(--text-color);
+    }
+
+    /* Navigation Consistency with Shop Page */
+    .menu2 .navbar {
+      background: linear-gradient(135deg, var(--primary-color), #7a3c00);
+      box-shadow: 0 2px 10px rgba(91, 39, 0, 0.3);
+    }
+
+    .menu2 .navbar-brand img {
+      height: 5rem;
+      transition: transform 0.3s ease;
+    }
+
+    .menu2 .navbar-brand:hover img {
+      transform: scale(1.05);
+    }
+
+    .menu2 .navbar-caption {
+      font-size: 1.75rem;
+      font-weight: 700;
+      color: white !important;
+      margin-left: 0.5rem;
+    }
+
+    .menu2 .nav-link {
+      color: white !important;
+      font-weight: 500;
+      padding: 0.75rem 1rem;
+      transition: all 0.3s ease;
+    }
+
+    .menu2 .nav-link:hover {
+      color: #ffd700 !important;
+      background: rgba(255, 255, 255, 0.1);
+      border-radius: 6px;
+    }
+
+    .menu2 .nav-link i {
+      margin-right: 0.5rem;
+    }
+
+    /* Product Detail Section */
+    .product-detail {
+      padding-top: 8rem;
+      background: #fff;
+    }
+
+    .breadcrumb {
+      background-color: rgba(91, 39, 0, 0.1);
+      border-radius: 8px;
+      padding: 1rem;
+      margin-bottom: 2rem;
+    }
+
+    .breadcrumb-item a {
+      color: var(--primary-color);
+      text-decoration: none;
+    }
+
+    .breadcrumb-item a:hover {
+      text-decoration: underline;
+    }
+
+    /* Product Gallery */
+    .product-gallery {
+      position: relative;
+    }
+
+    .main-image {
+      width: 100%;
+      height: 500px;
+      object-fit: cover;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease;
+    }
+
+    .main-image:hover {
+      transform: scale(1.02);
+    }
+
+    .thumbnail-container {
+      display: flex;
+      gap: 12px;
+      overflow-x: auto;
+      padding: 1rem 0;
+      scrollbar-width: thin;
+      scrollbar-color: var(--primary-color) transparent;
+    }
+
+    .thumbnail-container::-webkit-scrollbar {
+      height: 6px;
+    }
+
+    .thumbnail-container::-webkit-scrollbar-track {
+      background: #f1f1f1;
+    }
+
+    .thumbnail-container::-webkit-scrollbar-thumb {
+      background: var(--primary-color);
+      border-radius: 3px;
+    }
+
+    .thumbnail {
+      width: 90px;
+      height: 90px;
+      object-fit: cover;
+      border-radius: 8px;
+      cursor: pointer;
+      border: 2px solid transparent;
+      transition: all 0.3s ease;
+      flex-shrink: 0;
+    }
+
+    .thumbnail:hover,
+    .thumbnail.active {
+      border-color: var(--primary-color);
+      transform: scale(1.05);
+      box-shadow: 0 4px 12px rgba(91, 39, 0, 0.2);
+    }
+
+    /* Product Info */
+    .product-info {
+      padding-left: 2rem;
+    }
+
+    .product-title {
+      font-size: 2.25rem;
+      font-weight: 700;
+      color: var(--text-color);
+      margin-bottom: 1rem;
+      line-height: 1.2;
+    }
+
+    .rating {
+      display: flex;
+      align-items: center;
+      gap: 0.25rem;
+      margin-bottom: 1rem;
+    }
+
+    .rating i {
+      font-size: 1.1rem;
+      color: #ffc107;
+    }
+
+    .product-price {
+      font-size: 2rem;
+      font-weight: 700;
+      color: var(--primary-color);
+      margin: 1.5rem 0;
+    }
+
+    .original-price {
+      font-size: 1.25rem;
+      color: var(--light-text);
+      text-decoration: line-through;
+      margin-left: 1rem;
+    }
+
+    .product-meta p {
+      font-size: 0.95rem;
+      margin-bottom: 0.75rem;
+      color: var(--text-color);
+    }
+
+    .product-meta strong {
+      color: var(--primary-color);
+    }
+
+    .product-description {
+      font-size: 1rem;
+      line-height: 1.7;
+      color: var(--light-text);
+      margin: 2rem 0;
+    }
+
+    /* Quantity Selector */
+    .quantity-selector {
+      margin: 2rem 0;
+    }
+
+    .quantity-selector label {
+      font-weight: 600;
+      color: var(--text-color);
+      margin-bottom: 0.5rem;
+      display: block;
+    }
+
+    .input-group {
+      max-width: 150px;
+    }
+
+    .btn-outline-secondary {
+      border-color: #dee2e6;
+      color: var(--text-color);
+    }
+
+    .btn-outline-secondary:hover {
+      background: var(--secondary-color);
+      border-color: var(--primary-color);
+      color: var(--primary-color);
+    }
+
+    /* Buttons */
+    .btn-primary {
+      background-color: var(--primary-color);
+      border-color: var(--primary-color);
+      border-radius: 8px;
+      padding: 1rem 2rem;
+      font-weight: 600;
+      transition: all 0.3s ease;
+    }
+
+    .btn-primary:hover {
+      background-color: #4a1f00;
+      border-color: #4a1f00;
+      transform: translateY(-2px);
+      box-shadow: 0 4px 12px rgba(91, 39, 0, 0.3);
+    }
+
+    .btn-outline-danger {
+      border-radius: 50%;
+      width: 55px;
+      height: 55px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: all 0.3s ease;
+    }
+
+    .btn-outline-danger:hover {
+      background: var(--accent-color);
+      border-color: var(--accent-color);
+      color: white;
+      transform: scale(1.1);
+    }
+
+    /* Social Share */
+    .social-share a {
+      font-size: 1.5rem;
+      transition: color 0.3s ease;
+    }
+
+    .social-share a:hover {
+      color: var(--primary-color) !important;
+    }
+
+    /* Tabs */
+    .nav-tabs {
+      border-bottom: 2px solid #eee;
+      margin-bottom: 0;
+    }
+
+    .nav-tabs .nav-link {
+      border: none;
+      color: var(--light-text);
+      font-weight: 500;
+      padding: 1rem 1.5rem;
+      border-radius: 0;
+      transition: all 0.3s ease;
+    }
+
+    .nav-tabs .nav-link:hover,
+    .nav-tabs .nav-link.active {
+      color: var(--primary-color);
+      border-bottom: 2px solid var(--primary-color);
+      background: var(--secondary-color);
+    }
+
+    .tab-content {
+      background: white;
+      border: 1px solid #eee;
+      border-top: none;
+      border-radius: 0 0 12px 12px;
+      padding: 2rem;
+    }
+
+    /* Reviews */
+    .review-item {
+      border-bottom: 1px solid #eee;
+      padding-bottom: 1.5rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .review-item h5 {
+      color: var(--text-color);
+      margin-bottom: 0.5rem;
+    }
+
+    .review-item .text-muted {
+      font-size: 0.9rem;
+    }
+
+    /* Related Products */
+    #related-products .card {
+      border: none;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+      transition: all 0.3s ease;
+      height: 100%;
+    }
+
+    #related-products .card:hover {
+      box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+      transform: translateY(-4px);
+    }
+
+    #related-products .card-img-top {
+      height: 200px;
+      object-fit: cover;
+    }
+
+    #related-products .card-title {
+      font-size: 1.1rem;
+      font-weight: 600;
+      margin-bottom: 0.5rem;
+    }
+
+    #related-products .card-text {
+      font-weight: 700;
+      color: var(--primary-color);
+      font-size: 1.1rem;
+    }
+
+    /* Footer Consistency */
+    .footer4 {
+      background: linear-gradient(135deg, var(--primary-color), #7a3c00);
+      color: white;
+      padding: 3rem 0 1rem;
+    }
+
+    .footer4 .mbr-overlay {
+      background-color: rgba(91, 39, 0, 0.8) !important;
+    }
+
+    .footer4 h5 {
+      font-weight: 600;
+      margin-bottom: 1rem;
+    }
+
+    .footer4 a {
+      color: rgba(255, 255, 255, 0.8);
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+
+    .footer4 a:hover {
+      color: white;
+    }
+
+    .footer4 .social-list a {
+      font-size: 1.5rem;
+      margin-right: 1rem;
+    }
+
+    /* Mobile Responsiveness */
+    @media (max-width: 991.98px) {
+      .product-detail {
+        padding-top: 7rem;
+      }
+
+      .product-info {
+        padding-left: 0;
+        padding-top: 2rem;
+      }
+
+      .product-title {
+        font-size: 1.75rem;
+      }
+
+      .product-price {
+        font-size: 1.75rem;
+      }
+
+      .main-image {
+        height: 350px;
+      }
+
+      .thumbnail {
+        width: 70px;
+        height: 70px;
+      }
+
+      .nav-tabs .nav-link {
+        padding: 0.75rem 1rem;
+        font-size: 0.9rem;
+      }
+
+      .tab-content {
+        padding: 1.5rem;
+      }
+
+      #related-products .col-lg-3 {
+        margin-bottom: 1.5rem;
+      }
+    }
+
+    @media (max-width: 575.98px) {
+      .menu2 .navbar-nav {
+        text-align: center;
+      }
+
+      .menu2 .nav-link {
+        padding: 0.5rem;
+      }
+
+      .product-title {
+        font-size: 1.5rem;
+      }
+
+      .product-price {
+        font-size: 1.5rem;
+      }
+
+      .main-image {
+        height: 280px;
+      }
+
+      .thumbnail-container {
+        gap: 8px;
+      }
+
+      .thumbnail {
+        width: 60px;
+        height: 60px;
+      }
+
+      .btn-primary {
+        padding: 0.875rem 1.5rem;
+      }
+
+      .btn-outline-danger {
+        width: 45px;
+        height: 45px;
+      }
+
+      .social-share a {
+        font-size: 1.25rem;
+      }
+    }
+
+    /* Accessibility */
+    .sr-only {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      padding: 0;
+      margin: -1px;
+      overflow: hidden;
+      clip: rect(0, 0, 0, 0);
+      white-space: nowrap;
+      border: 0;
+    }
+
+    .btn:focus,
+    .form-control:focus,
+    .nav-link:focus {
+      outline: 2px solid var(--primary-color);
+      outline-offset: 2px;
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      * {
+        animation-duration: 0.01ms !important;
+        transition-duration: 0.01ms !important;
+      }
+    }
+</style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org/",
+  "@type": "Product",
+  "name": "Honey Blondie HD Lace Front Wig",
+  "image": "assets/shopitems/item 1 (2).jpg",
+  "description": "Honey Blondie body wave wig, 27–30 inch length, 200% density, HD lace front, pre-plucked hairline with baby hairs, glueless wear. Premium human hair for a natural, voluminous look.",
+  "brand": {
+    "@type": "Brand",
+    "name": "Premium"
+  },
+  "offers": {
+    "@type": "Offer",
+    "priceCurrency": "USD",
+    "price": "249.99",
+    "availability": "https://schema.org/InStock"
+  },
+  "category": "Human Hair Wigs"
+}
+</script>
+</head>
+  <!-- Navigation (Consistent with Shop Page) -->
+  <section data-bs-version="5.1" class="menu menu2 cid-tJS6tZXiPa" once="menu" id="menu02-25">
+    <nav class="navbar navbar-dropdown navbar-fixed-top navbar-expand-lg">
+      <div class="container">
+        <div class="navbar-brand">
+          <span class="navbar-logo">
+            <img src="assets/images/whatsapp-image-2025-09-14-at-04.01.04-7eaf7e29-removebg-preview-160x155.png" alt="Wigtopia Logo" style="height: 5rem;">
+          </span>
+          <span class="navbar-caption-wrap"><a class="navbar-caption text-white text-primary display-4" href="index.html#header05-1">WIGTOPIA</a></span>
+        </div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbarSupportedContent" data-bs-target="#navbarSupportedContent" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav nav-dropdown nav-right" data-app-modern-menu="true">
+            <li class="nav-item">
+              <a class="nav-link link text-white display-4" href="index.html"><span class="mbrib-home mbr-iconfont mbr-iconfont-btn"></span>Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link text-white display-4 active" href="page4.html"><span class="mbrib-shopping-bag mbr-iconfont mbr-iconfont-btn"></span>Shop</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link text-white display-4" href="page5.html"><span class="mbrib-info mbr-iconfont mbr-iconfont-btn"></span>About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link text-white display-4" href="page3.html"><span class="mbrib-rocket mbr-iconfont mbr-iconfont-btn"></span>Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link text-white display-4" href="page2.html"><span class="mbrib-contact-form mbr-iconfont mbr-iconfont-btn"></span>Contact</a>
+            </li>
+          </ul>
+          <div class="navbar-buttons ms-auto d-none d-lg-flex">
+            <a href="#" class="btn btn-white display-4" id="cart-toggle">
+              <span class="mbrib-shopping-cart mbr-iconfont mbr-iconfont-btn me-2"></span>Cart
+              <span class="badge bg-danger ms-1 cart-count">0</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </section>
+
+  <!-- Product Detail Section -->
+  <section class="product-detail">
+    <div class="container">
+      <nav aria-label="breadcrumb" class="mb-4">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+          <li class="breadcrumb-item"><a href="page4.html">Shop</a></li>
+          <li class="breadcrumb-item" id="product-category-breadcrumb">Human Hair Wigs</li>
+          <li class="breadcrumb-item active" aria-current="page" id="product-name-breadcrumb">Product Name</li>
+        </ol>
+      </nav>
+      
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="product-gallery">
+            <img src="" alt="Main Product Image" class="main-image" id="main-image">
+            <div class="thumbnail-container" id="thumbnail-container">
+              <!-- Thumbnails will be added here by JavaScript -->
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="product-info">
+            <h1 class="product-title" id="product-title">Product Title</h1>
+            <div class="rating mb-3">
+              <i class="bi bi-star-fill text-warning"></i>
+              <i class="bi bi-star-fill text-warning"></i>
+              <i class="bi bi-star-fill text-warning"></i>
+              <i class="bi bi-star-fill text-warning"></i>
+              <i class="bi bi-star text-warning"></i>
+              <span class="ms-2 text-muted">(24 reviews)</span>
+            </div>
+            <div class="product-price">
+              $<span id="product-price">0.00</span>
+              <small class="original-price" id="original-price"></small>
+            </div>
+            
+            <div class="product-meta">
+              <p><strong>Brand:</strong> <span id="product-brand">-</span></p>
+              <p><strong>Availability:</strong> <span class="text-success">In Stock</span></p>
+              <p><strong>Category:</strong> <span id="product-category-display">-</span></p>
+            </div>
+            
+            <p class="product-description" id="product-description">
+              Product description will be loaded here.
+            </p>
+            
+            <div class="quantity-selector">
+              <label for="quantity" class="form-label">Quantity:</label>
+              <div class="input-group">
+                <button class="btn btn-outline-secondary" type="button" id="decrease-qty" aria-label="Decrease quantity">-</button>
+                <input type="number" class="form-control text-center" id="quantity" value="1" min="1" aria-label="Quantity">
+                <button class="btn btn-outline-secondary" type="button" id="increase-qty" aria-label="Increase quantity">+</button>
+              </div>
+            </div>
+            
+            <div class="d-flex gap-2">
+              <button class="btn btn-primary btn-lg flex-grow-1" id="add-to-cart">
+                <i class="bi bi-cart-plus me-2"></i>Add to Cart
+              </button>
+              <button class="btn btn-outline-danger btn-lg" id="add-to-wishlist" aria-label="Add to wishlist">
+                <i class="bi bi-heart"></i>
+              </button>
+            </div>
+            
+            <div class="mt-4">
+              <h5>Share this product:</h5>
+              <div class="social-share">
+                <a href="#" class="text-dark me-3" aria-label="Share on Facebook"><i class="bi bi-facebook"></i></a>
+                <a href="#" class="text-dark me-3" aria-label="Share on Twitter"><i class="bi bi-twitter"></i></a>
+                <a href="#" class="text-dark me-3" aria-label="Share on Instagram"><i class="bi bi-instagram"></i></a>
+                <a href="#" class="text-dark me-3" aria-label="Share on Pinterest"><i class="bi bi-pinterest"></i></a>
+                <a href="#" class="text-dark" aria-label="Share via Email"><i class="bi bi-envelope"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Product Tabs -->
+      <div class="row mt-5">
+        <div class="col-12">
+          <ul class="nav nav-tabs" id="productTabs" role="tablist">
+            <li class="nav-item" role="presentation">
+              <button class="nav-link active" id="description-tab" data-bs-toggle="tab" data-bs-target="#description" type="button" role="tab" aria-controls="description" aria-selected="true">Description</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="specs-tab" data-bs-toggle="tab" data-bs-target="#specs" type="button" role="tab" aria-controls="specs" aria-selected="false">Specifications</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="reviews-tab" data-bs-toggle="tab" data-bs-target="#reviews" type="button" role="tab" aria-controls="reviews" aria-selected="false">Reviews (24)</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="shipping-tab" data-bs-toggle="tab" data-bs-target="#shipping" type="button" role="tab" aria-controls="shipping" aria-selected="false">Shipping & Returns</button>
+            </li>
+          </ul>
+          <div class="tab-content p-3 border border-top-0 rounded-bottom" id="productTabsContent">
+            <div class="tab-pane fade show active" id="description" role="tabpanel" aria-labelledby="description-tab">
+              <h4>Product Description</h4>
+              <div id="product-full-description">
+                Full product description will be loaded here.
+              </div>
+            </div>
+            <div class="tab-pane fade" id="specs" role="tabpanel" aria-labelledby="specs-tab">
+              <h4>Product Specifications</h4>
+              <table class="table table-striped">
+                <tbody id="product-specs">
+                  <!-- Specifications will be added by JavaScript -->
+                </tbody>
+              </table>
+            </div>
+            <div class="tab-pane fade" id="reviews" role="tabpanel" aria-labelledby="reviews-tab">
+              <h4>Customer Reviews</h4>
+              <div class="row">
+                <div class="col-md-4 text-center">
+                  <h1 class="display-4 text-primary">4.8</h1>
+                  <div class="mb-2">
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-half text-warning"></i>
+                  </div>
+                  <p class="text-muted">Based on 24 reviews</p>
+                </div>
+                <div class="col-md-8">
+                  <div class="review-item mb-4">
+                    <div class="d-flex justify-content-between align-items-start">
+                      <h5>Amazing Quality</h5>
+                      <div class="text-warning">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                      </div>
+                    </div>
+                    <p class="text-muted small">By Sarah J. on September 15, 2025</p>
+                    <p>This wig exceeded my expectations! The quality is amazing and it looks so natural. I get compliments every time I wear it.</p>
+                  </div>
+                  <div class="review-item mb-4">
+                    <div class="d-flex justify-content-between align-items-start">
+                      <h5>Perfect Fit</h5>
+                      <div class="text-warning">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star"></i>
+                      </div>
+                    </div>
+                    <p class="text-muted small">By John D. on September 10, 2025</p>
+                    <p>Great product, fast shipping. Highly recommend for anyone looking for a high-quality wig.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="shipping" role="tabpanel" aria-labelledby="shipping-tab">
+              <h4>Shipping & Returns</h4>
+              <h5>Shipping Policy</h5>
+              <p>We offer worldwide shipping. Most orders are processed within 1-2 business days and delivered within 5-10 business days. Shipping times may vary depending on your location.</p>
+              
+              <h5 class="mt-4">Returns & Exchanges</h5>
+              <p>We accept returns within 30 days of purchase for a full refund. Items must be in their original condition with all tags attached. Please contact our customer service for return instructions.</p>
+              
+              <h5 class="mt-4">Warranty</h5>
+              <p>All our wigs come with a 6-month warranty against manufacturing defects. Normal wear and tear is not covered under this warranty.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Related Products -->
+      <div class="row mt-5">
+        <div class="col-12">
+          <h3 class="mb-4">You May Also Like</h3>
+          <div class="row" id="related-products">
+            <!-- Related products will be added here by JavaScript -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer (Consistent with Shop Page) -->
+  <section data-bs-version="5.1" class="footer4 cid-uWM4NR2o0S mbr-parallax-background" once="footers" id="footer4-26">
+    <div class="mbr-overlay" style="opacity: 0.7; background-color: rgb(91, 39, 0);"></div>
+    <div class="container">
+      <div class="row mbr-white">
+        <div class="col-6 col-lg-3">
+          <div class="media-wrap col-md-12 col-12">
+            <a href="https://mobiri.se/">
+              <img src="assets/images/whatsapp-image-2025-09-14-at-04.01.04-7eaf7e29-removebg-preview-160x155.png" alt="Mobirise Website Builder">
+            </a>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3">
+          <h5 class="mbr-section-subtitle mbr-fonts-style mb-2 display-7"><strong>Contact</strong></h5>
+          <p class="mbr-text mbr-fonts-style mb-4 display-4">Wigtopia&nbsp; Luxury Hair Supplier.<br>Room 305, Building 2, Hair products<br>Industrial Zone&nbsp;<br>+ 85262846803<br>Yuzhou Road, Xuchang City, Henan<br>Province, China- 461000</p>
+          <h5 class="mbr-section-subtitle mbr-fonts-style mb-3 display-7">
+            <strong>Follow Us</strong>
+          </h5>
+          <div class="social-row display-7">
+            <div class="soc-item">
+              <a href="https://twitter.com/mobirise" target="_blank" aria-label="Follow us on WhatsApp">
+                <span class="mbr-iconfont socicon-whatsapp socicon" style="color: rgb(166, 169, 156); fill: rgb(166, 169, 156);"></span>
+              </a>
+            </div>
+            <div class="soc-item">
+              <a href="https://twitter.com/mobirise" target="_blank" aria-label="Follow us on Facebook">
+                <span class="mbr-iconfont socicon-facebook socicon" style="color: rgb(166, 169, 156); fill: rgb(166, 169, 156);"></span>
+              </a>
+            </div>
+            <div class="soc-item">
+              <a href="https://twitter.com/mobirise" target="_blank" aria-label="Follow us on Snapchat">
+                <span class="mbr-iconfont socicon-snapchat socicon" style="color: rgb(166, 169, 156); fill: rgb(166, 169, 156);"></span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3">
+          <h5 class="mbr-section-subtitle mbr-fonts-style mb-2 display-7"><strong>Legal Terms&nbsp;&nbsp;</strong></h5>
+          <ul class="list mbr-fonts-style display-4">
+            <li class="mbr-text item-wrap">Terms</li>
+            <li class="mbr-text item-wrap"><span style="font-size: 1.4rem;">Privacy</span></li><li class="mbr-text item-wrap"><span style="font-size: 1.4rem;">Team</span></li><li class="mbr-text item-wrap"><br></li>
+          </ul>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3">
+          <h5 class="mbr-section-subtitle mbr-fonts-style mb-2 display-7"><strong>Pages</strong></h5>
+          <ul class="list mbr-fonts-style display-4">
+            <li class="mbr-text item-wrap"><a href="page4.html" class="text-white">Products </a></li><li class="mbr-text item-wrap"><a href="page2.html" class="text-white">Contacts&nbsp;</a></li><li class="mbr-text item-wrap"><span style="font-size: 1.4rem;"><a href="page3.html" class="text-white">Services&nbsp;</a></span></li><li class="mbr-text item-wrap"><a href="page5.html" class="text-white">About us.</a></li>
+          </ul>
+        </div>
+        <div class="col-12 mt-4">
+          <p class="mbr-text mb-0 mbr-fonts-style copyright align-center display-4"><em>
+            © Copyright 2025&nbsp;wigtopialuxury - All Rights Reserved
+          </em></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Add to Cart Toast -->
+  <div class="position-fixed bottom-0 end-0 p-3" style="z-index: 1060">
+    <div id="addToCartToast" class="toast align-items-center text-white bg-primary border-0" role="alert" aria-live="assertive" aria-atomic="true">
+      <div class="d-flex">
+        <div class="toast-body">
+          <i class="bi bi-cart-check-fill me-2"></i>Item has been added to your cart!
+        </div>
+        <button type="button" class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Wishlist Toast -->
+  <div class="position-fixed bottom-0 end-0 p-3" style="z-index: 1060">
+    <div id="wishlistToast" class="toast align-items-center text-white bg-success border-0" role="alert" aria-live="assertive" aria-atomic="true">
+      <div class="d-flex">
+        <div class="toast-body">
+          <i class="bi bi-heart-fill me-2"></i>Item added to wishlist!
+        </div>
+        <button type="button" class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></button>
+      </div>
+    </div>
+  </div>
+
+  <script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/parallax/jarallax.js"></script>
+  <script src="assets/smoothscroll/smooth-scroll.js"></script>
+  <script src="assets/ytplayer/index.js"></script>
+  <script src="assets/dropdown/js/navbar-dropdown.js"></script>
+  <script src="assets/theme/js/script.js"></script>
+
+  <div id="scrollToTop" class="scrollToTop mbr-arrow-up"><a style="text-align: center;"><i class="mbr-arrow-up-icon mbr-arrow-up-icon-cm cm-icon cm-icon-smallarrow-up"></i></a></div>
+  <input name="animation" type="hidden">
+
+  <script>
+    // Shared Cart System
+    let cart = JSON.parse(localStorage.getItem('wigtopiaCart')) || [];
+    const cartCounts = document.querySelectorAll('.cart-count');
+
+    function updateCartCount() {
+      const itemCount = cart.reduce((sum, item) => sum + item.quantity, 0);
+      cartCounts.forEach(counter => counter.textContent = itemCount);
+    }
+
+    function addToCart(id, name, price, image = null, quantity = 1) {
+      const existingItem = cart.find(item => item.id === id);
+      if (existingItem) {
+        existingItem.quantity += quantity;
+      } else {
+        cart.push({
+          id,
+          name,
+          price: parseFloat(price),
+          quantity,
+          image
+        });
+      }
+      localStorage.setItem('wigtopiaCart', JSON.stringify(cart));
+      updateCartCount();
+      showToast('addToCartToast', `${quantity} ${name} added to cart!`);
+    }
+
+    function showToast(toastId, message) {
+      const toastEl = document.getElementById(toastId);
+      const toastBody = toastEl.querySelector('.toast-body');
+      toastBody.innerHTML = `<i class="bi bi-check-circle-fill me-2"></i>${message}`;
+      const toast = new bootstrap.Toast(toastEl);
+      toast.show();
+    }
+
+    // Product Data
+    const products = {
+      'silky-straight': {
+        id: 1,
+        name: 'Honey Blondie HD Lace Front (27–30")',
+        category: 'Human Hair Wigs',
+        price: 249.99,
+        originalPrice: 299.99,
+        brand: 'Premium',
+        description: 'Honey Blondie body wave, 27–30\" length, 200% density, HD lace front, pre‑plucked hairline with baby hairs, glueless wear.',
+        fullDescription: '<p>Turn heads with this Honey Blondie Body Wave Wig, crafted from 100% premium human hair for a natural, silky flow. Designed with HD lace for an undetectable melt, this wig gives you that flawless “fresh from the salon” look every time.</p><p><strong>Key Features:</strong></p><ul><li>Honey Blondie Color – bold, radiant, and trendy</li><li>27–30 Inch Body Wave – long, luscious waves with movement</li><li>200% Density – ultra-full & voluminous</li><li>HD Lace Front – invisible melt, scalp-like finish</li><li>Pre-Plucked Hairline – natural look with baby hairs</li><li>Glueless Wear – comfortable, breathable, and secure</li></ul><p>Perfect for a Scarlet‑inspired Honey Blonde vibe with rich volume and soft waves.</p>',
+        images: [
+          'assets/shopitems/item 1 (1).jpg',
+          'assets/shopitems/item 1 (2).jpg',
+          'assets/shopitems/item 1 (3).jpg',
+          'assets/shopitems/item 1 (4).jpg',
+          'assets/shopitems/item 1 (5).jpg',
+          'assets/shopitems/item 1 (6).jpg'
+        ],
+        specs: {
+          'Material': '100% Human Hair',
+          'Lace Type': 'HD Lace Front',
+          'Style': 'Body Wave',
+          'Density': '200%',
+          'Length': '27–30 inches',
+          'Color': 'Honey Blondie',
+          'Wear': 'Glueless, Pre-plucked Hairline with Baby Hairs',
+          'Cap Size': 'Average (22.5 inches)',
+          'Hair Type': 'Brazilian Virgin Hair',
+          'Lifespan': '1+ years with proper care'
+        },
+        related: ['body-wave', 'deep-wave', 'kinky-twist']
+      },
+      'grey-26in-hd': {
+        id: 3,
+        name: '26" Grey HD Lace Front (13x4)',
+        category: 'Human Hair Wigs',
+        price: 329.99,
+        originalPrice: 379.99,
+        brand: 'Luxury',
+        description: '26 Inch Grey Lace Front Wigs Human Hair 13x4 HD Transparent Frontal. Grey/Silver colored straight lace front, pre-plucked with baby hair, glueless, 180% density.',
+        fullDescription: '<p>Elevate your look with our 26 Inch Grey HD Transparent Lace Front Wig. Crafted from 100% human hair with a sleek straight texture, this unit features a 13x4 HD transparent frontal for an ultra-natural hairline. Pre-plucked with baby hairs and designed to be glueless for comfortable daily wear, the 180% density delivers luxurious fullness and movement.</p><p>Highlights:</p><ul><li>100% Human Hair</li><li>13x4 HD Transparent Lace</li><li>Pre-plucked Hairline with Baby Hair</li><li>Glueless Wear</li><li>180% Density</li><li>Length: 26 Inches</li><li>Color: Grey / Silver</li></ul>',
+        images: [
+          'assets/shopitems/item 3  (1).jpg',
+          'assets/shopitems/item 3  (2).jpg',
+          'assets/shopitems/item 3  (3).jpg',
+          'assets/shopitems/item 3  (4).jpg',
+          'assets/shopitems/item 3  (5).jpg',
+          'assets/shopitems/item 3  (6).jpg',
+          'assets/shopitems/item 3  (7).jpg'
+        ],
+        specs: {
+          'Material': '100% Human Hair',
+          'Lace Type': 'HD Transparent',
+          'Frontal Size': '13x4',
+          'Texture': 'Straight',
+          'Density': '180%',
+          'Length': '26 inches',
+          'Color': 'Grey / Silver',
+          'Cap Construction': 'Glueless, Adjustable Straps & Combs',
+          'Hairline': 'Pre-plucked with Baby Hair'
+        },
+        related: ['silky-straight', 'deep-wave', 'body-wave']
+      },
+      'ebin-wonder-lace-bond-35ml': {
+        id: 14,
+        name: 'EBIN NEW YORK Wonder Lace Bond – Extra Mega Hold (35ml)',
+        category: 'Accessories / Adhesives',
+        price: 14.99,
+        originalPrice: 17.99,
+        brand: 'EBIN NEW YORK',
+        description: 'Extra mega hold with HD invisible finish. Water & oil resistant, non-toxic and skin-friendly; lightweight and breathable. Works for poly & lace wigs.',
+        fullDescription: '<p>Achieve a flawless and secure install with the EBIN Wonder Lace Bond Adhesive. Specially formulated for lace frontals, closures, and full lace wigs, this glue delivers an invisible finish with extra mega hold that lasts. Resistant to water, sweat, and oils, it ensures your wig stays in place without irritation.</p><p><strong>Key Features:</strong></p><ul><li>Extra Mega Hold – long-lasting and reliable</li><li>HD Invisible Finish – melts lace seamlessly</li><li>Water & Oil Resistant – perfect for active lifestyles</li><li>Non-Toxic & Skin-Friendly – safe for daily wear</li><li>Lightweight Formula – breathable and comfortable</li><li>Works for Poly & Lace Wigs – versatile application</li></ul><p>Perfect for wig lovers and stylists who want a professional, natural-looking melt that lasts through the day.</p>',
+        images: [
+          'assets/shopitems/item 7  (1).jpg',
+          'assets/shopitems/item 7  (2).jpg',
+          'assets/shopitems/item 7  (3).jpg',
+          'assets/shopitems/item 7  (4).jpg',
+          'assets/shopitems/item 7  (5).jpg'
+        ],
+        specs: {
+          'Type': 'Wig Adhesive',
+          'Hold Level': 'Extra Mega Hold',
+          'Finish': 'HD Invisible',
+          'Resistance': 'Water & Oil Resistant',
+          'Toxicity': 'Non-Toxic, Skin-Friendly',
+          'Size': '1.18 oz / 35 ml',
+          'Compatibility': 'Poly & Lace Wigs'
+        },
+        related: ['ghostbond-xl-1-3oz', 'skinlike-hd-wig-cap-4pc', 'silky-straight']
+      },
+      'skinlike-hd-wig-cap-4pc': {
+        id: 12,
+        name: 'Skinlike HD Wig Cap – 4 Pieces',
+        category: 'Accessories / Caps',
+        price: 12.99,
+        originalPrice: 15.99,
+        brand: 'Skinlike',
+        description: 'Ultra‑thin, breathable & stretchy HD invisible wig cap. Seamless melt under lace; secure, flat fit. 4‑piece pack.',
+        fullDescription: '<p>Get the perfect foundation for your lace front wigs with the Skinlike HD Wig Cap. Made with ultra-thin, breathable, and stretchy material, these wig caps offer a seamless, invisible look under any lace wig. Lightweight yet durable, they’re designed for all-day comfort while keeping your natural hair secure.</p><p><strong>Key Features:</strong></p><ul><li>HD Invisible Wig Cap – melts naturally under lace</li><li>Ultra-Thin & Sheer – no bulk, no lines</li><li>Breathable & Stretchy Fabric – comfort that lasts</li><li>Secure Fit – keeps natural hair flat & in place</li><li>4-Piece Pack – long-lasting value</li></ul><p>Perfect for achieving that skin-like finish under lace front wigs, closures, and full lace units.</p>',
+        images: [
+          'assets/shopitems/item 5  (1).jpg',
+          'assets/shopitems/item 5  (2).jpg',
+          'assets/shopitems/item 5  (3).jpg',
+          'assets/shopitems/item 5  (4).jpg',
+          'assets/shopitems/item 5  (5).jpg',
+          'assets/shopitems/item 5  (6).jpg',
+          'assets/shopitems/item 5  (7).jpg'
+        ],
+        specs: {
+          'Type': 'HD Invisible Wig Cap',
+          'Pack Size': '4 Pieces',
+          'Material': 'Ultra-thin, Breathable, Stretch Fabric',
+          'Fit': 'Secure, Flat, Stretchy',
+          'Use': 'Under Lace Front, Closures, Full Lace Units'
+        },
+        related: ['ghostbond-xl-1-3oz', 'silky-straight', 'deep-wave-360-28in']
+      },
+      'rat-tail-combs-3pc': {
+        id: 13,
+        name: 'Rat Tail Combs Set – 3 Pieces',
+        category: 'Accessories / Tools',
+        price: 8.99,
+        originalPrice: 10.99,
+        brand: 'Stylist Kit',
+        description: '3-piece rat tail comb set with long steel pin tail for precise parting & sectioning. Anti-static teeth, lightweight & durable — perfect for braids, installs, and styling.',
+        fullDescription: '<p>Level up your styling game with this 3-piece Rat Tail Comb Set, designed for professional salon stylists and everyday use. Each comb features a long stainless-steel pin tail for precise parting, sectioning, and styling. Lightweight, durable, and anti-static, they’re perfect for creating sleek styles, braids, and wig installs.</p><p><strong>Key Features:</strong></p><ul><li>3 Colors Included – Purple, Black, Pink</li><li>Long Steel Pin Tail – perfect for parting & sectioning</li><li>Anti-Static Teeth – smooth detangling without breakage</li><li>Lightweight & Durable – salon-quality performance</li><li>Multi-Use Tool – braiding, teasing, coloring, and wig styling</li></ul><p>Whether you’re a professional hairstylist or love styling at home, this set is a must-have for clean parts and flawless finishes.</p>',
+        images: [
+          'assets/shopitems/item 6 (1).jpg',
+          'assets/shopitems/item 6 (2).jpg',
+          'assets/shopitems/item 6 (3).jpg',
+          'assets/shopitems/item 6 (4).jpg'
+        ],
+        specs: {
+          'Pieces': '3',
+          'Colors': 'Purple, Black, Pink',
+          'Tail': 'Long Stainless-Steel Pin Tail',
+          'Teeth': 'Anti-Static',
+          'Use': 'Parting, Sectioning, Braiding, Teasing, Coloring, Wig Styling'
+        },
+        related: ['skinlike-hd-wig-cap-4pc', 'ghostbond-xl-1-3oz', 'silky-straight']
+      },
+      't3-singlepass-curl-x': {
+        id: 15,
+        name: 'T3 SinglePass Curl X',
+        category: 'Accessories / Tools',
+        price: 129.99,
+        originalPrice: 149.99,
+        brand: 'T3',
+        description: 'Extra-long ceramic barrel with SinglePass technology for frizz-free, long-lasting curls. 9 heat settings; sizes 1\", 1.25\", 1.5\".',
+        fullDescription: '<p>Get salon-worthy curls at home with the T3 SinglePass Curl X. Designed with an extra-long ceramic barrel and advanced technology, it delivers fast, frizz-free styling with a smooth, shiny finish. Available in 1\", 1.25\", and 1.5\" barrel sizes, it’s perfect for every curl style – from tight spirals to loose, voluminous waves.</p><p><strong>Key Features:</strong></p><ul><li>Extra-Long Ceramic Barrel – covers more hair in less time</li><li>9 Heat Settings – customized styling for all hair types</li><li>SinglePass Technology – even heat for consistent curls</li><li>Frizz-Free Finish – smooth, shiny, long-lasting results</li><li>Multiple Sizes (1\", 1.25\", 1.5\") – versatile styles in one tool</li><li>Professional-Grade Performance – trusted by stylists</li></ul><p>Perfect for all hair types – whether fine, thick, short, or long – this curling iron makes styling faster, easier, and longer-lasting.</p>',
+        images: [
+          'assets/shopitems/item 8  (1).jpg',
+          'assets/shopitems/item 8  (2).jpg',
+          'assets/shopitems/item 8  (3).jpg',
+          'assets/shopitems/item 8  (4).jpg',
+          'assets/shopitems/item 8  (5).jpg',
+          'assets/shopitems/item 8  (6).jpg',
+          'assets/shopitems/item 8  (7).jpg'
+        ],
+        specs: {
+          'Barrel': 'Extra-Long Ceramic',
+          'Heat Settings': '9',
+          'Technology': 'SinglePass Even Heat',
+          'Finish': 'Frizz-Free, Long-Lasting Curls',
+          'Sizes': '1\", 1.25\", 1.5\"',
+          'Use': 'All Hair Types'
+        },
+        related: ['rat-tail-combs-3pc', 'silky-straight', 'skinlike-hd-wig-cap-4pc']
+      },
+      'body-wave': {
+        id: 2,
+        name: 'Body Wave Brazilian',
+        category: 'Human Hair Wigs',
+        price: 189.99,
+        brand: 'Luxury',
+        description: 'Natural looking body wave wig made from premium Brazilian hair. This wig features a natural wave pattern that adds volume and movement to your look.',
+        fullDescription: '<p>Our Body Wave Brazilian wig is crafted from 100% premium Brazilian human hair. The natural wave pattern provides a voluminous and bouncy look that is both stylish and easy to maintain. The wig features a comfortable cap construction with adjustable straps for a secure fit.</p><p>Features:</p><ul><li>100% Brazilian Human Hair</li><li>Natural Wave Pattern</li><li>Medium Density</li><li>Adjustable Straps</li><li>Breathable Cap</li><li>24-26 Inches Length</li><li>Color: Natural Black</li></ul>',
+        images: [
+          'assets/shopitems/item 2 (1).jpg',
+          'assets/shopitems/item 2 (2).jpg',
+          'assets/shopitems/item 2 (3).jpg',
+          'assets/shopitems/item 2 (4).jpg',
+          'assets/shopitems/item 2 (5).jpg'
+        ],
+        specs: {
+          'Material': '100% Brazilian Human Hair',
+          'Style': 'Body Wave',
+          'Length': '24-26 Inches',
+          'Density': 'Medium',
+          'Cap Construction': 'Adjustable Straps',
+          'Lifespan': '6-12 months with proper care',
+          'Maintenance': 'Wash every 7-14 days'
+        },
+        related: ['silky-straight', 'kinky-twist']
+      },
+      'deep-wave-360-28in': {
+        id: 11,
+        name: 'Deep Wave 360 Lace Front - 28"',
+        category: 'Human Hair Wigs',
+        price: 299.99,
+        brand: 'Luxury',
+        description: '28-inch deep wave 360° glueless HD lace, 100% human hair, 180% density. Pre-plucked hairline with baby hairs; adjustable drawstring & straps.',
+        fullDescription: '<p>Transform your look with our luxurious 28-inch Deep Wave 360 Lace Front Wig made from 100% premium human hair. Designed with an HD invisible lace for a flawless melt, this unit comes pre-plucked with a natural hairline for an effortless install.</p><p><strong>Key Features:</strong></p><ul><li>360° Glueless Lace Frontal – wear it up or down with versatility</li><li>Invisi-Strap HD Lace – blends seamlessly with any skin tone</li><li>28-Inch Deep Wave Curls – long, bouncy, and full of life</li><li>180% Density – maximum volume with a natural finish</li><li>Pre-Plucked Hairline + Baby Hairs – ready-to-wear perfection</li><li>Adjustable drawstring & straps – secure, comfortable fit</li></ul><p>Perfect for women who want a trending look with effortless glam and long-lasting curls.</p>',
+        images: [
+          'assets/shopitems/item 2 (1).jpg',
+          'assets/shopitems/item 2 (2).jpg',
+          'assets/shopitems/item 2 (3).jpg',
+          'assets/shopitems/item 2 (4).jpg',
+          'assets/shopitems/item 2 (5).jpg'
+        ],
+        specs: {
+          'Material': '100% Human Hair',
+          'Lace Type': '360° HD Invisible Lace',
+          'Style': 'Deep Wave',
+          'Length': '28 Inches',
+          'Density': '180%',
+          'Hairline': 'Pre-Plucked with Baby Hairs',
+          'Fit': 'Glueless with Adjustable Drawstring & Straps',
+          'Wear Versatility': 'Up or Down'
+        },
+        related: ['silky-straight', 'deep-wave', 'grey-26in-hd']
+      },
+      'deep-wave': {
+        id: 4,
+        name: 'Deep Wave Lace Front',
+        category: 'Human Hair Wigs',
+        price: 299.99,
+        originalPrice: 349.99,
+        brand: 'Luxury',
+        description: 'Luxurious deep wave pattern with natural looking lace front for a glamorous look.',
+        fullDescription: '<p>Experience the beauty of our Deep Wave Lace Front wig, featuring a luxurious wave pattern that adds volume and dimension to your style. Made from 100% human hair, this wig offers a natural look with its HD lace front and medium density.</p><p>Features:</p><ul><li>100% Human Hair</li><li>HD Lace Front</li><li>Deep Wave Pattern</li><li>Medium Density</li><li>Pre-plucked Hairline</li><li>Bleached Knots</li><li>28-30 Inches Length</li><li>Color: #2 Natural Black</li></ul>',
+        images: [
+          'assets/shopitems/item 2 (1).jpg',
+          'assets/shopitems/item 2 (2).jpg',
+          'assets/shopitems/item 2 (3).jpg',
+          'assets/shopitems/item 2 (4).jpg',
+          'assets/shopitems/item 2 (5).jpg'
+        ],
+        specs: {
+          'Material': '100% Human Hair',
+          'Lace Type': 'HD Lace',
+          'Style': 'Deep Wave',
+          'Length': '28-30 Inches',
+          'Density': 'Medium',
+          'Cap Construction': 'Lace Front with Adjustable Straps',
+          'Lifespan': '1+ years with proper care',
+          'Maintenance': 'Wash every 7-10 days'
+        },
+        related: ['silky-straight', 'body-wave']
+      },
+      'ghostbond-xl-1-3oz': {
+        id: 10,
+        name: 'GHOSTBOND XL Hair Replacement Adhesive 1.3oz',
+        category: 'Accessories / Adhesives',
+        price: 29.99,
+        originalPrice: 34.99,
+        brand: 'Ghost Bond',
+        description: 'Invisible wig bonding glue. Water & oil-resistant, non-toxic, light hold for poly and lace hairpieces, wigs & toupee systems.',
+        fullDescription: '<p>GHOSTBOND XL is a high-performance, invisible hair replacement adhesive designed for a secure and natural-looking hold on both poly and lace systems. Its advanced formula is water and oil-resistant, non-toxic, and ideal for daily or occasional wear when you want a dependable, light hold.</p><p>Benefits:</p><ul><li>Water & Oil-Resistant</li><li>Non-Toxic and Skin-Friendly</li><li>Invisible Dry for Natural Look</li><li>Light Hold for Easy Removal</li><li>Suitable for Poly and Lace Hairpieces, Wigs & Toupees</li></ul>',
+        images: [
+          'assets/shopitems/item 4 (1).jpg',
+          'assets/shopitems/item 4 (2).jpg',
+          'assets/shopitems/item 4 (3).jpg',
+          'assets/shopitems/item 4 (4).jpg',
+          'assets/shopitems/item 4 (5).jpg',
+          'assets/shopitems/item 4 (6).jpg'
+        ],
+        specs: {
+          'Type': 'Hair Replacement Adhesive',
+          'Size': '1.3 oz',
+          'Hold Level': 'Light',
+          'Resistance': 'Water & Oil-Resistant',
+          'Toxicity': 'Non-Toxic',
+          'Suitable For': 'Poly & Lace Systems'
+        },
+        related: ['silky-straight', 'deep-wave', 'body-wave']
+      },
+      'kinky-twist': {
+        id: 9,
+        name: 'Titanium Flat Iron – 2 Inch (Wide Plate)',
+        category: 'Accessories & Tools',
+        price: 199.99,
+        originalPrice: 249.99,
+        brand: 'Premium',
+        description: '2-inch titanium wide plates deliver fast, even heat for salon-quality silk press with frizz-control and adjustable heat.',
+        fullDescription: '<p>🔥 <strong>Titanium Flat Iron Hair Straightener – 2 Inch Wide Plate</strong> 🔥</p><p>Achieve the ultimate silk press with this professional 2-inch Titanium Flat Iron, specially designed for thick and natural hair. The extra-wide plates cover more hair in one pass, cutting styling time while delivering a sleek, shiny, frizz-free finish. Built with advanced titanium plates, it provides fast, even heat for smooth results that last.</p><p>✨ <strong>Key Features</strong>:</p><ul><li>✅ <strong>2-Inch Extra-Wide Titanium Plates</strong> – perfect for thick, coarse, or natural hair</li><li>✅ <strong>Fast Heat-Up & Even Heat Distribution</strong> – no hot spots, no damage</li><li>✅ <strong>Silk Press Ready</strong> – achieves salon-quality straightening at home</li><li>✅ <strong>Frizz-Control Technology</strong> – smooth, shiny, and long-lasting finish</li><li>✅ <strong>Adjustable Heat Settings</strong> – tailored for all hair types</li><li>✅ <strong>Durable & Lightweight Design</strong> – easy handling for everyday styling</li></ul><p>Whether you’re aiming for a silky straight press or want to tame thick natural curls, this flat iron delivers professional results in half the time.</p><p><em>📌 Hashtags:</em><br>#TitaniumFlatIron #SilkPressTools #WidePlateStraightener #2InchFlatIron #NaturalHairSilkPress #HairStraightener #FrizzFreeFinish #ThickHairSolutions #SalonResultsAtHome #SilkPressIron</p>',
+        images: [
+          'assets/shopitems/item 9  (1).jpg',
+          'assets/shopitems/item 9  (2).jpg',
+          'assets/shopitems/item 9  (3).jpg',
+          'assets/shopitems/item 9  (4).jpg',
+          'assets/shopitems/item 9  (5).jpg'
+        ],
+        specs: {
+          'Plate Material': 'Titanium',
+          'Plate Width': '2 inches (extra-wide)',
+          'Heat-Up Time': 'Fast heat-up',
+          'Heat Distribution': 'Even, no hot spots',
+          'Use Case': 'Silk press; thick, coarse, or natural hair',
+          'Frizz Control': 'Yes – smooth, shiny finish',
+          'Heat Settings': 'Adjustable for all hair types',
+          'Design': 'Durable yet lightweight for daily use'
+        },
+        related: ['t3-singlepass-curl-x', 'rat-tail-combs-3pc', 'ghostbond-xl-1-3oz']
+      },
+      'straight-blonde': {
+        id: 16,
+        name: '613 Blonde Body Wave Bundle – 3 Bundles (20", 22", 24")',
+        category: 'Human Hair Bundles',
+        price: 279.99,
+        originalPrice: 329.99,
+        brand: 'Luxury',
+        description: '12A Brazilian Virgin Human Hair body wave in 613 Blonde. Set of 3 bundles (20", 22", 24"); shed-free, tangle-free; can be bleached, dyed, and restyled.',
+        fullDescription: '<p><strong>613 Blonde Body Wave Bundle – Brazilian Virgin Human Hair</strong></p><p>Upgrade your look with our premium 613 Body Wave Hair Bundles. This set includes 3 bundles (20", 22", 24") of silky, voluminous hair, perfect for creating natural and glamorous styles.</p><p><strong>Key Features:</strong></p><ul><li><strong>Hair Type:</strong> 100% Unprocessed 12A Brazilian Virgin Human Hair</li><li><strong>Texture:</strong> Body Wave – soft, bouncy, and easy to style</li><li><strong>Color:</strong> 613 Blonde – perfect for dyeing or wearing as is</li><li><strong>Lengths Included:</strong> 20", 22", 24" (3 bundles)</li><li><strong>Durability:</strong> Shed-free, tangle-free, can be bleached, dyed, and restyled</li></ul>',
+        images: [
+          'assets/shopitems/item 10 (1).jpg',
+          'assets/shopitems/item 10 (2).jpg',
+          'assets/shopitems/item 10 (3).jpg'
+        ],
+        specs: {
+          'Hair Type': '100% Unprocessed 12A Brazilian Virgin Human Hair',
+          'Texture': 'Body Wave',
+          'Color': '613 Blonde',
+          'Bundle Lengths': '20", 22", 24" (3 bundles)',
+          'Durability': 'Shed-free, tangle-free; bleach, dye, and restyle friendly'
+        },
+        related: ['body-wave', 'deep-wave-360-28in', 'silky-straight']
+      },
+      'ginger-orange-bob-16in': {
+        id: 17,
+        name: 'Ginger Orange Bob – 13x4 HD Lace (16")',
+        category: 'Human Hair Wigs',
+        price: 199.99,
+        originalPrice: 239.99,
+        brand: 'Luxury',
+        description: '100% Human Hair straight bob in Ginger Orange (#350). 13x4 HD transparent lace. Adjustable, breathable cap for comfort.',
+        fullDescription: '<p><strong>Turn heads with our bold and stylish Ginger Orange Bob Wig.</strong> Made from 100% Human Hair, this short bob is soft, natural-looking, and easy to style.</p><p><strong>Details:</strong></p><ul><li><strong>Wig Type:</strong> 13x4 HD Transparent Lace Frontal</li><li><strong>Length:</strong> 16 inches (Short Bob)</li><li><strong>Color:</strong> Ginger Orange (#350)</li><li><strong>Texture:</strong> Straight – silky and sleek</li><li><strong>Cap Size:</strong> Adjustable, breathable & comfortable</li></ul><p>🔥 Designed for Black women who love vibrant, confident styles – perfect for daily wear or special occasions.</p>',
+        images: [
+          'assets/shopitems/item 11 (1).jpg',
+          'assets/shopitems/item 11 (2).jpg',
+          'assets/shopitems/item 11 (3).jpg',
+          'assets/shopitems/item 11 (4).jpg',
+          'assets/shopitems/item 11 (5).jpg',
+          'assets/shopitems/item 11 (6).jpg'
+        ],
+        specs: {
+          'Wig Type': '13x4 HD Transparent Lace Frontal',
+          'Length': '16 inches (Short Bob)',
+          'Color': 'Ginger Orange (#350)',
+          'Texture': 'Straight – silky and sleek',
+          'Cap Size': 'Adjustable, breathable & comfortable',
+          'Hair': '100% Human Hair'
+        },
+        related: ['silky-straight', 'grey-26in-hd', 'body-wave']
+      },
+      '360-deep-wave-ombre-22in': {
+        id: 18,
+        name: '360 Deep Wave – Honey Blonde Ombre Highlight (22")',
+        category: 'Human Hair Wigs',
+        price: 349.99,
+        originalPrice: 399.99,
+        brand: 'Luxury',
+        description: '360 Lace Front with hidden strap. 100% human hair. 22" length, 250% density. 4/27 honey blonde ombre highlight. Deep/water wave texture.',
+        fullDescription: '<p><strong>360 Deep Wave Lace Front Wig – Honey Blonde Ombre Highlight</strong></p><p>Bring volume and curls to life with our Hidden Strap 360 Deep Wave Lace Front Wig. Crafted from 100% Human Hair, this wig features 250% density for a fuller, natural look with beautiful 4/27 honey blonde highlights.</p><p><strong>Details:</strong></p><ul><li><strong>Wig Type:</strong> 360 Lace Front with Hidden Strap</li><li><strong>Length:</strong> 22 inches</li><li><strong>Density:</strong> 250% (super full & thick)</li><li><strong>Color:</strong> Honey Blonde Ombre (4/27 highlight)</li><li><strong>Texture:</strong> Deep Wave / Water Wave (wet & wavy look)</li></ul><p>🌊 Soft, bouncy curls that can be styled wet or dry – perfect for a glamorous, head-turning style.</p>',
+        images: [
+          'assets/shopitems/item 12 (1).jpg',
+          'assets/shopitems/item 12 (2).jpg',
+          'assets/shopitems/item 12 (3).jpg',
+          'assets/shopitems/item 12 (4).jpg',
+          'assets/shopitems/item 12 (5).jpg',
+          'assets/shopitems/item 12 (6).jpg'
+        ],
+        specs: {
+          'Wig Type': '360 Lace Front with Hidden Strap',
+          'Length': '22 inches',
+          'Density': '250% (super full & thick)',
+          'Color': 'Honey Blonde Ombre (4/27 highlight)',
+          'Texture': 'Deep Wave / Water Wave (wet & wavy look)',
+          'Hair': '100% Human Hair'
+        },
+        related: ['deep-wave-360-28in', 'deep-wave', 'silky-straight']
+      },
+      'ombre-blonde-13x4-30in': {
+        id: 19,
+        name: 'Ombre Blonde – 13x4 HD Lace (30")',
+        category: 'Human Hair Wigs',
+        price: 379.99,
+        originalPrice: 429.99,
+        brand: 'Luxury',
+        description: '13x4 HD transparent lace front, 30" length, 150% density. Ombre Blonde with dark roots (#1B/613). 100% human hair.',
+        fullDescription: '<p><strong>Ombre Blonde Human Hair Wig – 13x4 HD Transparent Lace Front</strong></p><p>Elevate your style with our Ombre Blonde Human Hair Wig, designed for a flawless, natural look. Featuring a 13x4 HD transparent lace front, this wig blends seamlessly into your skin for an undetectable melt effect. Pre-plucked with bleached knots, it offers a natural hairline and effortless styling.</p><p><strong>Details:</strong></p><ul><li><strong>Wig Type:</strong> 13x4 HD Transparent Lace Front</li><li><strong>Length:</strong> 30 inches (long & glamorous)</li><li><strong>Density:</strong> 150% (full & natural look)</li><li><strong>Color:</strong> Ombre Blonde with Dark Roots (#1B/613)</li><li><strong>Lace:</strong> Pre-plucked, Bleached Knots, Melted Lace for Invisible Finish</li><li><strong>Material:</strong> 100% Human Hair</li></ul><p><strong>Why You’ll Love It:</strong></p><ul><li>Natural dark roots for a realistic appearance</li><li>Soft, silky texture with long-lasting shine</li><li>Easy to style – straighten, curl, or wear wavy</li><li>Lightweight & comfortable for everyday wear or special occasions</li></ul><div class="ratio ratio-16x9 my-3"><video controls preload="metadata" style="width: 100%; border-radius: 8px;"><source src="assets/shopitems/item 13 (1).mp4" type="video/mp4">Your browser does not support the video tag.</video></div>',
+        images: [
+          'assets/shopitems/item 13 (1).jpg',
+          'assets/shopitems/item 13 (2).jpg'
+        ],
+        specs: {
+          'Wig Type': '13x4 HD Transparent Lace Front',
+          'Length': '30 inches',
+          'Density': '150%',
+          'Color': 'Ombre Blonde with Dark Roots (#1B/613)',
+          'Lace': 'Pre-plucked, Bleached Knots, Melted Lace',
+          'Material': '100% Human Hair'
+        },
+        related: ['silky-straight', 'deep-wave', 'grey-26in-hd']
+      },
+      '613-blonde-13x6-30in': {
+        id: 20,
+        name: '30" 613 Blonde – 13x6 HD Lace (Glueless)',
+        category: 'Human Hair Wigs',
+        price: 399.99,
+        originalPrice: 459.99,
+        brand: 'Luxury',
+        description: '13x6 HD transparent lace front (glueless), 30" straight, 200% density. Platinum 613 blonde with pre‑plucked natural hairline. 100% human hair.',
+        fullDescription: '<p><strong>30 Inch 613 Blonde Lace Front Wig – 13x6 HD Transparent Lace</strong></p><p>Make a bold statement with our 30 Inch 613 Blonde Lace Front Wig, crafted from 100% premium human hair for a silky, luxurious finish. With a 200% density, this wig is super full, thick, and naturally voluminous. The 13x6 HD transparent lace ensures a flawless melt into your skin, while the pre-plucked hairline gives you that undetectable, natural look. Designed to be glueless, it’s easy to wear and comfortable all day long.</p><p><strong>Details:</strong></p><ul><li><strong>Wig Type:</strong> 13x6 HD Transparent Lace Front (Glueless)</li><li><strong>Length:</strong> 30 inches (long & sleek)</li><li><strong>Density:</strong> 200% (extra full & thick)</li><li><strong>Color:</strong> 613 Blonde (platinum blonde shade)</li><li><strong>Texture:</strong> Straight (can be styled as desired)</li><li><strong>Material:</strong> 100% Human Hair</li><li><strong>Hairline:</strong> Pre-plucked for a natural finish</li></ul><p><strong>Why You’ll Love It:</strong></p><ul><li>Ultra-full 200% density for a glamorous look</li><li>HD lace for an invisible, seamless melt</li><li>Long, silky strands that can be straightened, curled, or styled freely</li><li>Glueless design for easy, secure wear without adhesives</li><li>Perfect for bold, fashion-forward styles</li></ul>',
+        images: [
+          'assets/shopitems/items 14 (2).jpg',
+          'assets/shopitems/items 14 (1).jpg',
+          'assets/shopitems/items 14 (3).jpg',
+          'assets/shopitems/items 14 (4).jpg',
+          'assets/shopitems/items 14 (5).jpg'
+        ],
+        specs: {
+          'Wig Type': '13x6 HD Transparent Lace Front (Glueless)',
+          'Length': '30 inches',
+          'Density': '200% (extra full & thick)',
+          'Color': '613 Blonde (platinum)',
+          'Texture': 'Straight',
+          'Material': '100% Human Hair',
+          'Hairline': 'Pre-plucked, natural finish'
+        },
+        related: ['silky-straight', 'grey-26in-hd', 'body-wave']
+      },
+      'ombre-highlight-13x6-26in': {
+        id: 21,
+        name: 'Ombre Highlight Straight – 13x6 HD Lace (26")',
+        category: 'Human Hair Wigs',
+        price: 399.99,
+        originalPrice: 459.99,
+        brand: 'Luxury',
+        description: '13x6 HD lace front, 26" straight, 200% density. Ombre Honey Blonde (4/27 highlight). Pre‑plucked natural hairline. 100% human hair.',
+        fullDescription: '<p><strong>Ombre Highlight Straight Lace Front Wig – Honey Blonde 4/27</strong></p><p>Step into effortless elegance with our Ombre Highlight Straight Lace Front Wig, crafted from 100% human hair for a silky, natural flow. This 13x6 lace front wig is pre-plucked with a natural hairline and features 200% density for a super full, glamorous look. The stunning honey blonde 4/27 color blend adds vibrant highlights with soft, face-framing tones.</p><p><strong>Details:</strong></p><ul><li><strong>Wig Type:</strong> 13x6 HD Lace Front</li><li><strong>Length:</strong> 26 inches (sleek & stylish)</li><li><strong>Density:</strong> 200% (extra full & voluminous)</li><li><strong>Color:</strong> Ombre Honey Blonde (4/27 Highlight)</li><li><strong>Texture:</strong> Straight (can be restyled as desired)</li><li><strong>Material:</strong> 100% Human Hair</li><li><strong>Hairline:</strong> Pre-plucked for a natural, undetectable finish</li></ul><p><strong>Why You’ll Love It:</strong></p><ul><li>Gorgeous honey blonde highlights that brighten your look</li><li>200% density for a fuller, more glamorous appearance</li><li>Natural-looking lace melt with a pre-plucked hairline</li><li>Silky, tangle-free strands that can be styled straight or curled</li><li>Perfect for both everyday wear and special occasions</li></ul>',
+        images: [
+          'assets/shopitems/items 14 (2).jpg',
+          'assets/shopitems/items 14 (1).jpg',
+          'assets/shopitems/items 14 (3).jpg',
+          'assets/shopitems/items 14 (4).jpg',
+          'assets/shopitems/items 14 (5).jpg'
+        ],
+        specs: {
+          'Wig Type': '13x6 HD Lace Front',
+          'Length': '26 inches',
+          'Density': '200% (extra full & voluminous)',
+          'Color': 'Ombre Honey Blonde (4/27 Highlight)',
+          'Texture': 'Straight',
+          'Material': '100% Human Hair',
+          'Hairline': 'Pre-plucked natural finish'
+        },
+        related: ['silky-straight', 'grey-26in-hd', 'body-wave']
+      },
+      'ombre-highlight-13x6-26in-15': {
+        id: 22,
+        name: 'Ombre Highlight – 13x6 HD Lace (26")',
+        category: 'Human Hair Wigs',
+        price: 399.99,
+        originalPrice: 459.99,
+        brand: 'Luxury',
+        description: '13x6 straight lace front, 26" length, 200% density. Honey Blonde Ombre (4/27) with highlights. Pre‑plucked with baby hairs. 100% human hair.',
+        fullDescription: '<p><strong>Ombre Highlight Lace Front Wig – 26 Inch</strong></p><p>Turn heads with this stunning 13x6 straight lace front wig, crafted from 100% human hair for a natural look and silky smooth feel. The honey blonde 4/27 ombre highlights add depth and dimension, making it perfect for both everyday wear and special occasions.</p><p><strong>Key Features:</strong></p><ul><li><strong>Length:</strong> 26 Inch for a sleek, glamorous style</li><li><strong>Lace Size:</strong> 13x6 lace front for a natural hairline and versatile parting</li><li><strong>Density:</strong> 200% for a full, voluminous look</li><li><strong>Style:</strong> Pre-plucked straight with baby hairs for easy wear</li><li><strong>Color:</strong> Honey Blonde Ombre (4/27) with highlights for a chic, sun-kissed effect</li><li><strong>Material:</strong> 100% Human Hair – soft, tangle-free, and long-lasting</li><li>This wig is glueless, easy to install, and can be styled with heat just like your own hair.</li></ul>',
+        images: [
+          'assets/shopitems/item 15  (2).jpg',
+          'assets/shopitems/item 15  (1).jpg',
+          'assets/shopitems/item 15  (3).jpg',
+          'assets/shopitems/item 15  (4).jpg'
+        ],
+        specs: {
+          'Lace Size': '13x6 HD Transparent Lace Front',
+          'Length': '26 inches',
+          'Density': '200% (full & voluminous)',
+          'Color': 'Honey Blonde Ombre (4/27) with highlights',
+          'Texture': 'Straight',
+          'Material': '100% Human Hair',
+          'Hairline': 'Pre-plucked with baby hairs',
+          'Install': 'Glueless; heat-styleable'
+        },
+        related: ['ombre-highlight-13x6-26in', 'silky-straight', 'grey-26in-hd']
+      },
+      'hd-straight-13x6-30in': {
+        id: 23,
+        name: 'HD Straight – 13x6 Lace Front (30")',
+        category: 'Human Hair Wigs',
+        price: 429.99,
+        originalPrice: 479.99,
+        brand: 'Luxury',
+        description: '30" straight 100% human hair with 13x6 HD lace. 200% density, pre‑plucked with baby hairs. Glueless, soft, and heat‑styleable.',
+        fullDescription: '<p><strong>30 Inch HD Lace Front Wig – Straight Human Hair</strong></p><p>Upgrade your look with this 30-inch straight lace front wig, made from 100% premium human hair for a sleek and natural finish. Designed with a 13x6 HD lace frontal, it blends seamlessly with your skin for an invisible hairline.</p><p><strong>Key Features:</strong></p><ul><li><strong>Length:</strong> Extra-long 30 Inch for a bold, glamorous style</li><li><strong>Lace Size:</strong> 13x6 HD Lace – ultra-thin, breathable & natural-looking</li><li><strong>Density:</strong> 200% for a thick, voluminous appearance</li><li><strong>Style:</strong> Pre-plucked straight with baby hairs for effortless wear</li><li><strong>Installation:</strong> Glueless design – easy to install and remove</li><li><strong>Material:</strong> 100% Human Hair – soft, tangle-free & heat-styling friendly</li></ul><p>Perfect for both everyday wear and special occasions, this wig gives you a flawless salon look in minutes.</p><div class="ratio ratio-16x9 my-3"><video controls preload="metadata" style="width: 100%; border-radius: 8px;"><source src="assets/shopitems/item 16  (1).mp4" type="video/mp4">Your browser does not support the video tag.</video></div><div class="ratio ratio-16x9 my-3"><video controls preload="metadata" style="width: 100%; border-radius: 8px;"><source src="assets/shopitems/item 16  (1).mp4" type="video/mp4">Your browser does not support the video tag.</video></div>',
+        images: [
+          'assets/shopitems/item 16  (1).jpg',
+          'assets/shopitems/item 16  (2).jpg',
+          'assets/shopitems/item 16  (3).jpg'
+        ],
+        specs: {
+          'Lace Size': '13x6 HD Transparent Lace Front',
+          'Length': '30 inches',
+          'Density': '200% (thick & voluminous)',
+          'Texture': 'Straight',
+          'Material': '100% Human Hair',
+          'Hairline': 'Pre-plucked with baby hairs',
+          'Install': 'Glueless; heat-styleable'
+        },
+        related: ['silky-straight', 'grey-26in-hd', 'ombre-blonde-13x4-30in']
+      },
+      'burgundy-straight-28in': {
+        id: 17,
+        name: 'Burgundy Straight – 13x6 HD Lace (28")',
+        category: 'Human Hair Wigs',
+        price: 349.99,
+        originalPrice: 399.99,
+        brand: 'Luxury',
+        description: '28" straight, 13x6 HD lace. 180% density, pre‑plucked with baby hairs. 99J burgundy/reddish brown. Glueless, 100% human hair.',
+        fullDescription: '<p><strong>28 Inch Burgundy Straight Lace Front Wig – 99J Deep Red Human Hair</strong></p><p>Step into bold elegance with this 28-inch burgundy straight wig, crafted from 100% human hair for a sleek and natural look. The 13x6 HD transparent lace ensures a flawless, skin-like hairline, while the 99J deep red/burgundy shade adds a rich pop of color.</p><p><strong>Key Features:</strong></p><ul><li><strong>Length:</strong> 28 Inch for a long, luxurious style</li><li><strong>Lace Size:</strong> 13x6 HD Transparent Lace – blends seamlessly with any skin tone</li><li><strong>Density:</strong> 180% for a natural, full-bodied look</li><li><strong>Color:</strong> 99J Burgundy / Reddish Brown for a vibrant, eye-catching finish</li><li><strong>Style:</strong> Straight, pre-plucked with baby hairs for effortless wear</li><li><strong>Installation:</strong> Glueless design for comfort and convenience</li><li><strong>Material:</strong> 100% Human Hair – soft, silky, and heat-friendly</li></ul><p>Perfect for special occasions or everyday glam, this wig gives you a salon-ready look with minimal effort.</p>',
+        images: [
+          'assets/shopitems/item 17 (1).jpg',
+          'assets/shopitems/item 17 (5).jpg',
+          'assets/shopitems/item 17 (6).jpg',
+          'assets/shopitems/item 17 (7).jpg'
+        ],
+        specs: {
+          'Material': '100% Human Hair',
+          'Lace Type': '13x6 HD Transparent Lace',
+          'Style': 'Straight',
+          'Density': '180%',
+          'Length': '28 inches',
+          'Color': '99J Burgundy / Reddish Brown',
+          'Hairline': 'Pre-plucked with Baby Hairs',
+          'Installation': 'Glueless Design',
+          'Heat-Friendly': 'Yes'
+        },
+        related: ['silky-straight', 'grey-26in-hd', 'body-wave']
+      },
+      'dark-ginger-body-wave-26in': {
+        id: 18,
+        name: 'Dark Ginger Body Wave – 13x4 HD Lace (26")',
+        category: 'Human Hair Wigs',
+        price: 379.99,
+        originalPrice: 429.99,
+        brand: 'Luxury',
+        description: '26" body wave, 13x4 HD lace. 250% density, pre‑plucked with baby hairs. Dark ginger/auburn reddish brown. Glueless, 100% human hair.',
+        fullDescription: '<p><strong>26 Inch Dark Ginger Body Wave Lace Front Wig – 250% Density Human Hair</strong></p><p>Turn heads with this dark ginger/auburn lace front wig, crafted from 100% human hair for a soft, natural, and voluminous look. The body wave texture delivers effortless bounce, while the 250% density ensures a luxuriously thick and full style.</p><p><strong>Key Features:</strong></p><ul><li><strong>Length:</strong> 26 Inch for a glamorous flowing look</li><li><strong>Lace Size:</strong> 13x4 HD Lace Frontal – breathable, transparent & natural hairline</li><li><strong>Density:</strong> 250% – extra thick and voluminous</li><li><strong>Color:</strong> Dark Ginger / Auburn Reddish Brown – rich and vibrant tones</li><li><strong>Style:</strong> Body Wave, pre-plucked with baby hairs for realism</li><li><strong>Installation:</strong> Glueless design – secure & easy to wear</li><li><strong>Material:</strong> 100% Human Hair – soft, silky, tangle-free & heat-friendly</li></ul><p>This wig blends comfort, volume, and elegance, making it perfect for daily wear or special occasions.</p>',
+        images: [
+          'assets/shopitems/item 18 (1).jpg',
+          'assets/shopitems/item 18 (2).jpg',
+          'assets/shopitems/item 18 (3).jpg'
+        ],
+        specs: {
+          'Material': '100% Human Hair',
+          'Lace Type': '13x4 HD Lace Frontal',
+          'Style': 'Body Wave',
+          'Density': '250%',
+          'Length': '26 inches',
+          'Color': 'Dark Ginger / Auburn Reddish Brown',
+          'Hairline': 'Pre-plucked with Baby Hairs',
+          'Installation': 'Glueless Design',
+          'Heat-Friendly': 'Yes'
+        },
+        related: ['body-wave', 'deep-wave', 'ginger-orange-bob-16in']
+      },
+      'honey-blonde-body-wave-24in': {
+        id: 19,
+        name: 'Honey Blonde Body Wave – 13x4 HD Lace (24")',
+        category: 'Human Hair Wigs',
+        price: 329.99,
+        originalPrice: 379.99,
+        brand: 'Luxury',
+        description: '24" body wave, 13x4 HD lace. 200% density, pre‑plucked with baby hairs. Honey blonde, bright and chic. Glueless, 100% human hair.',
+        fullDescription: '<p><strong>24 Inch Honey Blonde Body Wave HD Lace Front Wig – 200% Density Human Hair</strong></p><p>Shine with confidence in this honey blonde body wave lace front wig, crafted from 100% human hair for a soft, natural, and glamorous look. The HD lace frontal blends seamlessly with your skin, while the 200% density provides a full, voluminous style.</p><p><strong>Key Features:</strong></p><ul><li><strong>Length:</strong> 24 Inch for a flowing, elegant look</li><li><strong>Lace Size:</strong> 13x4 HD Transparent Lace – invisible and natural hairline</li><li><strong>Density:</strong> 200% for a thick, bouncy appearance</li><li><strong>Color:</strong> Honey Blonde – bright, chic, and eye-catching</li><li><strong>Style:</strong> Body Wave, pre-plucked with baby hairs for realism</li><li><strong>Installation:</strong> Glueless design – secure, breathable & easy to wear</li><li><strong>Material:</strong> 100% Human Hair – silky, tangle-free, and heat-friendly</li></ul><p>Perfect for everyday wear or special occasions, this wig gives you a luxurious, salon-quality style in minutes.</p>',
+        images: [
+          'assets/shopitems/item 19 (1).jpg',
+          'assets/shopitems/item 19 (2).jpg',
+          'assets/shopitems/item 19 (3).jpg',
+          'assets/shopitems/item 19 (4).jpg'
+        ],
+        specs: {
+          'Material': '100% Human Hair',
+          'Lace Type': '13x4 HD Transparent Lace',
+          'Style': 'Body Wave',
+          'Density': '200%',
+          'Length': '24 inches',
+          'Color': 'Honey Blonde',
+          'Hairline': 'Pre-plucked with Baby Hairs',
+          'Installation': 'Glueless Design',
+          'Heat-Friendly': 'Yes'
+        },
+        related: ['body-wave', 'deep-wave', 'silky-straight']
+      },
+      'diane-t-pins-2in': {
+        id: 20,
+        name: 'Diane 2-Inch T-Pins – Silver (12 & 15 Pack)',
+        category: 'Accessories / Tools',
+        price: 8.99,
+        originalPrice: 10.99,
+        brand: 'Diane',
+        description: '2-inch T-pins for securing wigs, toupees, and hairpieces. Silver metal, durable hold. Available in 12-pack or 15-pack options.',
+        fullDescription: '<p><strong>Diane 2-Inch T-Pins – Silver (12 & 15 Pack)</strong></p><p>Secure your wigs, toupees, and hairpieces with ease using these durable 2-inch T-pins. Designed for professional and personal use, they\'re perfect for styling, crafting, displaying, or securing on mannequin heads and wig stands.</p><p><strong>Key Features:</strong></p><ul><li><strong>Size:</strong> 2 Inches – sturdy and reliable hold</li><li><strong>Material:</strong> Silver metal for durability and long-lasting use</li><li><strong>Uses:</strong> Ideal for wigs, toupees, hairpieces, crafts, and mannequin styling</li><li><strong>Pack Options:</strong> Available in 12-pack or 15-pack for your needs</li><li><strong>Easy to Use:</strong> Sharp yet secure design keeps hairpieces in place without slipping</li></ul><p>Perfect for both salon professionals and at-home stylists.</p>',
+        images: [
+          'assets/shopitems/item 20 (1).jpg',
+          'assets/shopitems/item 20 (2).jpg'
+        ],
+        specs: {
+          'Type': 'T-Pins',
+          'Size': '2 Inches',
+          'Material': 'Silver Metal',
+          'Pack Options': '12-pack or 15-pack',
+          'Uses': 'Wigs, Toupees, Hairpieces, Crafts, Mannequin Styling',
+          'Design': 'Sharp yet Secure Hold'
+        },
+        related: ['rat-tail-combs-3pc', 'skinlike-hd-wig-cap-4pc', 'ghostbond-xl-1-3oz']
+      },
+      'slick-back-brush-wax-set': {
+        id: 21,
+        name: 'Slick Back Hair Brush & Hair Wax Stick Set',
+        category: 'Accessories / Tools',
+        price: 15.99,
+        originalPrice: 19.99,
+        brand: 'Luxury',
+        description: '2-in-1 hair smoothing set with slick back brush and hair wax stick. Perfect for taming frizz, smoothing flyaways, and creating sleek styles.',
+        fullDescription: '<p><strong>Slick Back Hair Brush & Hair Wax Stick Set</strong></p><p>Achieve flawless styles with this 2-in-1 hair smoothing set that combines a slick back brush and a hair wax stick. Perfect for taming frizz, smoothing flyaways, and creating sleek ponytails, buns, and laid edges with ease.</p><p><strong>Key Features:</strong></p><ul><li><strong>Complete Set:</strong> Includes 1 slick back brush + 1 hair wax stick</li><li><strong>Frizz Control:</strong> Smooths stubborn flyaways and baby hairs</li><li><strong>Versatile Styling:</strong> Ideal for sleek ponytails, buns, and edges</li><li><strong>Easy to Use:</strong> Lightweight, portable, and beginner-friendly</li><li><strong>Long-Lasting Hold:</strong> Keeps hair in place without stiffness or residue</li></ul><p>Perfect for everyday use or professional styling, this set gives you a sleek, polished look in minutes.</p>',
+        images: [
+          'assets/shopitems/item 21 (2).jpg',
+          'assets/shopitems/item 21 (1).jpg'
+        ],
+        specs: {
+          'Type': '2-in-1 Hair Styling Set',
+          'Includes': 'Slick Back Brush + Hair Wax Stick',
+          'Use': 'Frizz Control, Flyaway Smoothing, Edge Laying',
+          'Styling': 'Sleek Ponytails, Buns, Laid Edges',
+          'Hold': 'Long-Lasting Without Stiffness',
+          'Portability': 'Lightweight and Portable'
+        },
+        related: ['rat-tail-combs-3pc', 't3-singlepass-curl-x', 'skinlike-hd-wig-cap-4pc']
+      },
+      'ebin-wonder-lace-bond-spray': {
+        id: 22,
+        name: 'EBIN New York Wonder Lace Bond Melting Spray – 8oz',
+        category: 'Accessories / Adhesives',
+        price: 24.99,
+        originalPrice: 29.99,
+        brand: 'EBIN New York',
+        description: '8oz melting spray for flawless wig installs. Provides invisible, strong hold that melts lace seamlessly for salon-quality finish.',
+        fullDescription: '<p><strong>EBIN New York Wonder Lace Bond Melting Spray – 8oz</strong></p><p>Get a flawless, natural-looking wig install with EBIN Wonder Lace Bond Melting Spray. Specially formulated for wig wearers, this spray provides an invisible, strong hold that melts lace seamlessly into your skin for a salon-quality finish.</p><p><strong>Key Features:</strong></p><ul><li><strong>Size:</strong> 8oz – long-lasting supply</li><li><strong>Strong Hold:</strong> Secures lace wigs, frontals & closures all day</li><li><strong>Natural Finish:</strong> Dries clear for an undetectable melt</li><li><strong>Easy Application:</strong> Spray-on formula for quick, mess-free use</li><li><strong>Gentle & Comfortable:</strong> Lightweight, non-sticky, and skin-friendly</li></ul><p>Perfect for achieving that melt-down effect with lace wigs, keeping your style secure and flawless.</p>',
+        images: [
+          'assets/shopitems/item 22.jpg',
+          'assets/shopitems/item 22 (2).jpg'
+        ],
+        specs: {
+          'Type': 'Melting Spray',
+          'Size': '8oz',
+          'Hold': 'Strong, Invisible Hold',
+          'Finish': 'Natural, Undetectable Melt',
+          'Application': 'Spray-on Formula',
+          'Use': 'Lace Wigs, Frontals & Closures',
+          'Comfort': 'Lightweight, Non-Sticky, Skin-Friendly'
+        },
+        related: ['ebin-wonder-lace-bond-35ml', 'ghostbond-xl-1-3oz', 'skinlike-hd-wig-cap-4pc']
+      },
+      'heat-resistant-glove': {
+        id: 24,
+        name: '🧤 Heat Resistant Styling Glove – Black / Pink',
+        category: 'Accessories / Tools',
+        price: 9.99,
+        originalPrice: 12.99,
+        brand: 'Professional',
+        description: 'Protect your hands while you style! This heat resistant glove is designed for safe use with curling irons, flat irons, and curling wands. No more burns while creating the perfect curls or sleek straight looks. Comfortable, flexible, and lightweight – perfect for both salon professionals and at-home styling.',
+        fullDescription: '<p><strong>🧤 Heat Resistant Styling Glove – Black / Pink</strong></p><p>Protect your hands while you style! This heat resistant glove is designed for safe use with curling irons, flat irons, and curling wands. No more burns while creating the perfect curls or sleek straight looks. Comfortable, flexible, and lightweight – perfect for both salon professionals and at-home styling.</p><p><strong>Key Features:</strong></p><ul><li><strong>🔥 High Heat Protection</strong> – Withstands up to 450°F (232°C) to keep your hand safe from hot tools</li><li><strong>✨ Versatile Use</strong> – Ideal for curling irons, flat irons, hair straighteners, and styling wands</li><li><strong>🖐️ Flexible & Comfortable Fit</strong> – Lightweight material allows easy hand movement and styling precision</li><li><strong>🎨 Stylish Colors</strong> – Available in classic black or trendy pink to match your style</li><li><strong>🪄 One Size Fits Most</strong> – Stretchable design suitable for most hand sizes</li><li><strong>🧼 Easy to Clean</strong> – Washable fabric that stays durable after multiple uses</li></ul><p><strong>Why You\'ll Love It:</strong><br>Say goodbye to accidental burns while styling your hair! Whether you\'re curling, straightening, or waving, this glove gives you the protection and confidence you need to style like a pro.</p>',
+        images: [
+          'assets/shopitems/itme 23 (1).jpg',
+          'assets/shopitems/itme 23 (2).jpg',
+          'assets/shopitems/itme 23 (3).jpg',
+          'assets/shopitems/itme 23 (4).jpg'
+        ],
+        specs: {
+          'Material': 'Heat-resistant fiber + cotton blend',
+          'Color Options': 'Black / Pink',
+          'Temperature Resistance': 'Up to 450°F (232°C)',
+          'Size': 'Universal (fits most hands)',
+          'Weight': 'Approx. 25g',
+          'Use': 'Curling irons, flat irons, hair straighteners, styling wands',
+          'Design': 'Flexible, comfortable, lightweight',
+          'Cleaning': 'Washable fabric, durable after multiple uses'
+        },
+        related: ['rat-tail-combs-3pc', 't3-singlepass-curl-x', 'slick-back-brush-wax-set']
+      },
+      'hot-tools-hair-dryer': {
+        id: 25,
+        name: '💨 HOT TOOLS Professional Hair Dryer – 1875 Watts',
+        category: 'Accessories / Tools',
+        price: 79.99,
+        originalPrice: 99.99,
+        brand: 'HOT TOOLS Professional',
+        description: 'Achieve salon-quality results at home with the HOT TOOLS Professional Hair Dryer. Designed with advanced ion technology and a powerful 1875-watt motor, this blow dryer delivers fast drying while leaving your hair smoother, shinier, and healthier-looking. With quiet operation and multiple settings, it\'s perfect for all hair types.',
+        fullDescription: '<p><strong>💨 HOT TOOLS Professional Hair Dryer – 1875 Watts</strong></p><p>Achieve salon-quality results at home with the HOT TOOLS Professional Hair Dryer. Designed with advanced ion technology and a powerful 1875-watt motor, this blow dryer delivers fast drying while leaving your hair smoother, shinier, and healthier-looking. With quiet operation and multiple settings, it\'s perfect for all hair types.</p><p><strong>Key Features:</strong></p><ul><li><strong>⚡ Fast Drying Power</strong> – 1875 watts of professional performance for quick and efficient styling</li><li><strong>🔇 Quiet Operation</strong> – Enjoy powerful airflow with less noise for a comfortable drying experience</li><li><strong>✨ Ion Technology</strong> – Reduces frizz and boosts shine, giving you long-lasting smoothness</li><li><strong>🌬️ Multiple Heat & Speed Settings</strong> – Customizable drying for different hair textures and styles</li><li><strong>❄️ Cool Shot Button</strong> – Locks in your style with a blast of cool air</li><li><strong>🧳 Lightweight & Comfortable</strong> – Easy to handle for both professional stylists and at-home use</li><li><strong>🔌 Durable Design</strong> – Built for long-lasting performance</li></ul><p><strong>Specifications:</strong></p><ul><li>Brand: HOT TOOLS Professional</li><li>Power: 1875 Watts</li><li>Technology: Ionic + Quiet Operation</li><li>Heat/Speed Settings: Multiple</li><li>Color: Sleek Black/Gold finish (classic HOT TOOLS design)</li><li>Cord: Professional-length swivel cord</li></ul><p><strong>Why You\'ll Love It:</strong><br>The HOT TOOLS Professional Hair Dryer combines speed, shine, and quiet comfort. Whether you want a sleek blowout, voluminous waves, or just quick drying before styling, this dryer gives you salon-level results every time.</p>',
+        images: [
+          'assets/shopitems/item 24 (2).jpg',
+          'assets/shopitems/item 24 (1).jpg'
+        ],
+        specs: {
+          'Brand': 'HOT TOOLS Professional',
+          'Power': '1875 Watts',
+          'Technology': 'Ionic + Quiet Operation',
+          'Heat/Speed Settings': 'Multiple',
+          'Color': 'Sleek Black/Gold finish',
+          'Cord': 'Professional-length swivel cord',
+          'Design': 'Lightweight & Comfortable',
+          'Use': 'Professional and home use'
+        },
+        related: ['t3-singlepass-curl-x', 'rat-tail-combs-3pc', 'slick-back-brush-wax-set']
+      },
+      'hot-tools-pro-artist': {
+        id: 26,
+        name: '💨 Hot Tools Pro Artist 1875W Turbo Ceramic + Ionic Hair Dryer',
+        category: 'Accessories / Tools',
+        price: 89.99,
+        originalPrice: 119.99,
+        brand: 'Hot Tools Pro Artist',
+        description: 'Get salon-quality results in less time with the Hot Tools Pro Artist 1875W Turbo Ceramic + Ionic Hair Dryer. Built with advanced ceramic technology and powerful ionic airflow, this dryer ensures fast drying, reduced frizz, and smoother, shinier hair. Its lightweight design makes styling effortless, whether you\'re a professional stylist or styling at home.',
+        fullDescription: '<p><strong>💨 Hot Tools Pro Artist 1875W Turbo Ceramic + Ionic Hair Dryer</strong></p><p>Get salon-quality results in less time with the Hot Tools Pro Artist 1875W Turbo Ceramic + Ionic Hair Dryer. Built with advanced ceramic technology and powerful ionic airflow, this dryer ensures fast drying, reduced frizz, and smoother, shinier hair. Its lightweight design makes styling effortless, whether you\'re a professional stylist or styling at home.</p><p><strong>Key Features:</strong></p><ul><li><strong>⚡ Powerful 1875W Motor</strong> – Fast drying performance for all hair types</li><li><strong>✨ Ceramic Technology</strong> – Provides even heat distribution for healthier-looking hair</li><li><strong>🌬️ Ionic Technology</strong> – Helps reduce frizz and enhances shine for a polished finish</li><li><strong>🪶 Lightweight Design</strong> – Easy to hold and comfortable for longer styling sessions</li><li><strong>🎛️ Multiple Heat & Speed Settings</strong> – Customizable for different styles and textures</li><li><strong>❄️ Cool Shot Button</strong> – Locks in your finished style with a burst of cool air</li><li><strong>🔌 Professional-Length Cord</strong> – Flexible movement and easy handling</li></ul><p><strong>Specifications:</strong></p><ul><li>Brand: Hot Tools Pro Artist</li><li>Power: 1875 Watts</li><li>Technology: Ceramic + Ionic</li><li>Settings: Multiple heat & speed options</li><li>Extras: Cool shot button</li><li>Design: Lightweight, ergonomic body</li><li>Color: Sleek professional finish</li></ul><p><strong>Why You\'ll Love It:</strong><br>Style smarter, not harder. This dryer combines power, protection, and comfort to deliver silky, shiny results every time. Ideal for quick morning blow-dries or detailed professional styling.</p>',
+        images: [
+          'assets/shopitems/item 25 (1).jpg',
+          'assets/shopitems/item 25 (2).jpg',
+          'assets/shopitems/item 25 (3).jpg'
+        ],
+        specs: {
+          'Brand': 'Hot Tools Pro Artist',
+          'Power': '1875 Watts',
+          'Technology': 'Ceramic + Ionic',
+          'Settings': 'Multiple heat & speed options',
+          'Extras': 'Cool shot button',
+          'Design': 'Lightweight, ergonomic body',
+          'Color': 'Sleek professional finish',
+          'Use': 'Professional and home styling'
+        },
+        related: ['hot-tools-hair-dryer', 't3-singlepass-curl-x', 'rat-tail-combs-3pc']
+      },
+      'hot-tools-2100-ionic': {
+        id: 27,
+        name: '💨 Hot Tools Pro Artist 2100 Ionic Turbo Hair Dryer',
+        category: 'Accessories / Tools',
+        price: 99.99,
+        originalPrice: 129.99,
+        brand: 'Hot Tools Pro Artist',
+        description: 'Experience next-level drying power with the Hot Tools Pro Artist 2100 Ionic Turbo Hair Dryer. Designed with advanced ionic technology and a high-performance 2100-watt motor, this dryer delivers ultra-fast drying while reducing frizz and enhancing shine. Lightweight yet powerful, it\'s the perfect tool for achieving smooth, professional results at home or in the salon.',
+        fullDescription: '<p><strong>💨 Hot Tools Pro Artist 2100 Ionic Turbo Hair Dryer</strong></p><p>Experience next-level drying power with the Hot Tools Pro Artist 2100 Ionic Turbo Hair Dryer. Designed with advanced ionic technology and a high-performance 2100-watt motor, this dryer delivers ultra-fast drying while reducing frizz and enhancing shine. Lightweight yet powerful, it\'s the perfect tool for achieving smooth, professional results at home or in the salon.</p><p><strong>Key Features:</strong></p><ul><li><strong>⚡ 2100W Turbo Power</strong> – Faster drying with salon-level performance</li><li><strong>✨ Ionic Technology</strong> – Reduces frizz, boosts shine, and keeps hair looking smooth and healthy</li><li><strong>🪶 Lightweight Design</strong> – Easy to handle, even for long styling sessions</li><li><strong>🌬️ Multiple Heat & Speed Settings</strong> – Custom control for every hair type and style</li><li><strong>❄️ Cool Shot Button</strong> – Locks in your style with a finishing touch of cool air</li><li><strong>🔌 Professional-Length Cord</strong> – Tangle-free movement and flexibility</li><li><strong>💎 Durable Build</strong> – Made for long-lasting, reliable performance</li></ul><p><strong>Specifications:</strong></p><ul><li>Brand: Hot Tools Pro Artist</li><li>Model: Ionic Turbo Dryer</li><li>Power: 2100 Watts</li><li>Technology: Ionic airflow</li><li>Settings: Multiple heat & speed controls</li><li>Extras: Cool shot function</li><li>Design: Lightweight, ergonomic handle</li><li>Color: Sleek black with gold accents</li></ul><p><strong>Why You\'ll Love It:</strong><br>Dry faster, style easier, and enjoy shinier, healthier-looking results every day. The Hot Tools Pro Artist 2100 Ionic Turbo Hair Dryer is built for speed, comfort, and professional styling power.</p>',
+        images: [
+          'assets/shopitems/item 26  (3).jpg',
+          'assets/shopitems/item 26  (1).jpg',
+          'assets/shopitems/item 26  (2).jpg'
+        ],
+        specs: {
+          'Brand': 'Hot Tools Pro Artist',
+          'Model': 'Ionic Turbo Dryer',
+          'Power': '2100 Watts',
+          'Technology': 'Ionic airflow',
+          'Settings': 'Multiple heat & speed controls',
+          'Extras': 'Cool shot function',
+          'Design': 'Lightweight, ergonomic handle',
+          'Color': 'Sleek black with gold accents',
+          'Use': 'Professional and home styling'
+        },
+        related: ['hot-tools-hair-dryer', 'hot-tools-pro-artist', 't3-singlepass-curl-x']
+      },
+      'pencil-flat-iron': {
+        id: 28,
+        name: '✨ Pencil Flat Iron 3/10" – Mini Hair Straightener (Black)',
+        category: 'Accessories / Tools',
+        price: 29.99,
+        originalPrice: 39.99,
+        brand: 'Professional',
+        description: 'Perfect sleek styles made simple! The Pencil Flat Iron 3/10" is specially designed for short hair, pixie cuts, bangs, and edges. With its ultra-thin 3/10" plates, this mini straightener gets close to the roots and edges for precise styling. Equipped with an LED display, dual voltage, and auto shut-off, it\'s a must-have tool at home or on the go.',
+        fullDescription: '<p><strong>✨ Pencil Flat Iron 3/10" – Mini Hair Straightener (Black)</strong></p><p>Perfect sleek styles made simple! The Pencil Flat Iron 3/10" is specially designed for short hair, pixie cuts, bangs, and edges. With its ultra-thin 3/10" plates, this mini straightener gets close to the roots and edges for precise styling. Equipped with an LED display, dual voltage, and auto shut-off, it\'s a must-have tool at home or on the go.</p><p><strong>Key Features:</strong></p><ul><li><strong>🎯 Ultra-Thin 3/10" Plates</strong> – Ideal for short hair, pixie cuts, bangs, and edge styling</li><li><strong>⚡ Fast Heating</strong> – Heats up quickly and maintains stable heat for smooth results</li><li><strong>💡 LED Display</strong> – Clear temperature control for precise styling</li><li><strong>🌍 Dual Voltage (110V–240V)</strong> – Perfect for worldwide travel</li><li><strong>🧳 Travel-Friendly</strong> – Lightweight, compact design fits easily in bags</li><li><strong>🛡️ Auto Shut-Off</strong> – Extra safety with automatic power-off feature</li><li><strong>✨ Smooth Styling</strong> – Straightens hair while reducing frizz and adding shine</li></ul><p><strong>Specifications:</strong></p><ul><li>Product: Pencil Flat Iron / Mini Hair Straightener</li><li>Plate Size: 3/10 inch (ultra-thin)</li><li>Color: Black</li><li>Display: LED temperature control</li><li>Voltage: Dual (110V–240V)</li><li>Safety: Auto shut-off function</li><li>Best For: Short hair, pixie cuts, bangs, edges, travel use</li></ul><p><strong>Why You\'ll Love It:</strong><br>This compact flat iron gives you the power of a full-size straightener in a travel-friendly design. Whether you\'re taming edges, styling a pixie cut, or fixing bangs, it delivers sleek, frizz-free results every time.</p>',
+        images: [
+          'assets/shopitems/item 27  (1).jpg',
+          'assets/shopitems/item 27  (2).jpg',
+          'assets/shopitems/item 27  (3).jpg',
+          'assets/shopitems/item 27  (4).jpg'
+        ],
+        specs: {
+          'Product': 'Pencil Flat Iron / Mini Hair Straightener',
+          'Plate Size': '3/10 inch (ultra-thin)',
+          'Color': 'Black',
+          'Display': 'LED temperature control',
+          'Voltage': 'Dual (110V–240V)',
+          'Safety': 'Auto shut-off function',
+          'Best For': 'Short hair, pixie cuts, bangs, edges, travel use',
+          'Design': 'Lightweight, compact, travel-friendly'
+        },
+        related: ['rat-tail-combs-3pc', 'slick-back-brush-wax-set', 't3-singlepass-curl-x']
+      },
+      'electric-hot-comb': {
+        id: 29,
+        name: '🔥 Electric Hot Comb – Straightening Comb for Wigs & Natural Hair',
+        category: 'Accessories / Tools',
+        price: 34.99,
+        originalPrice: 44.99,
+        brand: 'Professional',
+        description: 'Achieve smooth, sleek styles with the Electric Hot Comb, perfect for straightening wigs, weaves, and natural hair. Designed with fast-heating ceramic plates, this plug-in straightening comb delivers even heat distribution for salon-quality results at home. Safe, easy, and effective, it\'s a must-have tool for wig wearers and natural hair lovers.',
+        fullDescription: '<p><strong>🔥 Electric Hot Comb – Straightening Comb for Wigs & Natural Hair</strong></p><p>Achieve smooth, sleek styles with the Electric Hot Comb, perfect for straightening wigs, weaves, and natural hair. Designed with fast-heating ceramic plates, this plug-in straightening comb delivers even heat distribution for salon-quality results at home. Safe, easy, and effective, it\'s a must-have tool for wig wearers and natural hair lovers.</p><p><strong>Key Features:</strong></p><ul><li><strong>⚡ Fast Heating</strong> – Quickly heats up for efficient straightening</li><li><strong>✨ Ceramic-Coated Comb Teeth</strong> – Distributes heat evenly while reducing frizz and adding shine</li><li><strong>🖤 Perfect for Wigs & Natural Hair</strong> – Safe and effective on synthetic wigs, human hair wigs, and natural textures</li><li><strong>🎛️ Adjustable Temperature Control</strong> – Customize heat to match your hair type</li><li><strong>🔌 Plug-In Design</strong> – Consistent power supply for reliable performance</li><li><strong>🛡️ Safety Features</strong> – Includes indicator light and protective guard to prevent burns</li><li><strong>🧳 Lightweight & Portable</strong> – Easy to handle and store, great for salon or home use</li></ul><p><strong>Specifications:</strong></p><ul><li>Product: Electric Hot Comb (Plug-In)</li><li>Suitable For: Wigs, weaves, natural hair</li><li>Heating Element: Ceramic-coated comb</li><li>Temperature: Adjustable settings</li><li>Power: Electric plug-in (AC powered)</li><li>Color: Classic black with gold comb (common design)</li><li>Safety: Indicator light + protective guard</li></ul><p><strong>Why You\'ll Love It:</strong><br>Whether you\'re flattening wig roots, taming flyaways, or straightening natural hair, this hot comb gives you professional results with minimal effort. A reliable styling essential for smooth, polished looks every day.</p>',
+        images: [
+          'assets/shopitems/item 28  (4).jpg',
+          'assets/shopitems/item 28  (1).jpg',
+          'assets/shopitems/item 28  (2).jpg',
+          'assets/shopitems/item 28  (3).jpg'
+        ],
+        specs: {
+          'Product': 'Electric Hot Comb (Plug-In)',
+          'Suitable For': 'Wigs, weaves, natural hair',
+          'Heating Element': 'Ceramic-coated comb',
+          'Temperature': 'Adjustable settings',
+          'Power': 'Electric plug-in (AC powered)',
+          'Color': 'Classic black with gold comb',
+          'Safety': 'Indicator light + protective guard',
+          'Design': 'Lightweight & Portable'
+        },
+        related: ['pencil-flat-iron', 'rat-tail-combs-3pc', 'slick-back-brush-wax-set']
+      },
+      'chocolate-brown-28in': {
+        id: 30,
+        name: '💇🏾‍♀️ 28 Inch Chocolate Brown Lace Front Wig – Human Hair (13x6 HD Lace)',
+        category: 'Human Hair Wigs',
+        price: 399.99,
+        originalPrice: 449.99,
+        brand: 'Luxury',
+        description: 'Turn heads with this stunning 28-inch Chocolate Brown (#4 Light Brown) Lace Front Wig, crafted from 100% human hair. The 13x6 HD lace frontal gives a natural hairline and versatile parting, while the pre-plucked design ensures a realistic look right out of the box. With 180% density, this straight lace wig offers full volume and a silky, sleek finish. Glueless and beginner-friendly, it\'s perfect for daily wear or special occasions.',
+        fullDescription: '<p><strong>💇🏾‍♀️ 28 Inch Chocolate Brown Lace Front Wig – Human Hair (13x6 HD Lace)</strong></p><p>Turn heads with this stunning 28-inch Chocolate Brown (#4 Light Brown) Lace Front Wig, crafted from 100% human hair. The 13x6 HD lace frontal gives a natural hairline and versatile parting, while the pre-plucked design ensures a realistic look right out of the box. With 180% density, this straight lace wig offers full volume and a silky, sleek finish. Glueless and beginner-friendly, it\'s perfect for daily wear or special occasions.</p><p><strong>Key Features:</strong></p><ul><li><strong>✨ Premium 100% Human Hair</strong> – Soft, silky, and tangle-free with natural shine</li><li><strong>🎨 Rich Chocolate Brown (#4 Light Brown) Color</strong> – A warm, elegant shade for a chic look</li><li><strong>📏 Extra-Long 28 Inches</strong> – Gives you luxurious length and versatile styling options</li><li><strong>👩🏾‍🦱 13x6 HD Lace Frontal</strong> – Natural hairline with deep, free parting</li><li><strong>✂️ Pre-Plucked & Baby Hairs</strong> – Ready to wear with a realistic finish</li><li><strong>🧑🏾‍🦱 180% Density</strong> – Full, voluminous look without being heavy</li><li><strong>🪶 Glueless Design</strong> – Beginner-friendly and easy to install/remove</li><li><strong>🌍 Versatile Styling</strong> – Can be straightened, curled, dyed, or restyled like your own hair</li></ul><p><strong>Specifications:</strong></p><ul><li>Hair Type: 100% Human Hair</li><li>Length: 28 Inches</li><li>Color: #4 Light Brown (Chocolate Brown)</li><li>Lace Type: 13x6 HD Lace Frontal</li><li>Density: 180%</li><li>Cap Size: Average (adjustable straps)</li><li>Installation: Glueless, with combs & straps</li><li>Style: Straight, natural texture</li></ul><p><strong>Why You\'ll Love It:</strong><br>This wig combines luxury, comfort, and realism. Whether you\'re going for an everyday classy vibe or a glamorous evening look, it delivers flawless style with effortless wear.</p>',
+        images: [
+          'assets/shopitems/item 29  (2).jpg',
+          'assets/shopitems/item 29  (1).jpg',
+          'assets/shopitems/item 29  (3).jpg',
+          'assets/shopitems/item 29  (4).jpg'
+        ],
+        specs: {
+          'Hair Type': '100% Human Hair',
+          'Length': '28 Inches',
+          'Color': '#4 Light Brown (Chocolate Brown)',
+          'Lace Type': '13x6 HD Lace Frontal',
+          'Density': '180%',
+          'Cap Size': 'Average (adjustable straps)',
+          'Installation': 'Glueless, with combs & straps',
+          'Style': 'Straight, natural texture',
+          'Versatile': 'Can be straightened, curled, dyed, or restyled'
+        },
+        related: ['grey-26in-hd', 'burgundy-straight-28in', 'honey-blonde-body-wave-24in']
+      },
+      'luodais-pheromone-oil': {
+        id: 31,
+        name: '🧴 Luodais Golden Lure Pheromone Hair Oil – 80ml',
+        category: 'Hair Care',
+        price: 19.99,
+        originalPrice: 24.99,
+        brand: 'Luodais',
+        description: 'Indulge your hair with the luxurious Luodais Golden Lure Pheromone Hair Oil, a leave-in serum that nourishes, smooths, and perfumes your strands with an elegant fragrance. Infused with a unique pheromone formula, this serum not only enhances hair health but also leaves a lasting, irresistible scent. Perfect for daily use, it delivers shine, softness, and a touch of allure.',
+        fullDescription: '<p><strong>🧴 Luodais Golden Lure Pheromone Hair Oil – 80ml</strong></p><p>Indulge your hair with the luxurious Luodais Golden Lure Pheromone Hair Oil, a leave-in serum that nourishes, smooths, and perfumes your strands with an elegant fragrance. Infused with a unique pheromone formula, this serum not only enhances hair health but also leaves a lasting, irresistible scent. Perfect for daily use, it delivers shine, softness, and a touch of allure.</p><p><strong>Key Features:</strong></p><ul><li><strong>🌟 Leave-In Serum</strong> – No rinse needed; lightweight and non-greasy</li><li><strong>💎 Pheromone Formula</strong> – Enhances attraction with a captivating scent</li><li><strong>✨ Elegant Fragrance</strong> – Long-lasting, sophisticated aroma</li><li><strong>🪄 Hair Benefits</strong> – Smooths frizz, adds shine, and nourishes dry strands</li><li><strong>🧴 Compact 80ml Bottle</strong> – Perfect for travel or daily use</li><li><strong>🧑🏾‍🦱 Multi-Use</strong> – Suitable for natural hair, wigs, extensions, and chemically treated hair</li></ul><p><strong>Specifications:</strong></p><ul><li>Brand: Luodais</li><li>Product: Golden Lure Pheromone Hair Oil</li><li>Size: 80ml</li><li>Type: Leave-in hair serum</li><li>Formula: Pheromone-infused with nourishing oils</li><li>Benefits: Shine, softness, fragrance, frizz control</li></ul><p><strong>Why You\'ll Love It:</strong><br>This isn\'t just hair oil—it\'s a beauty and fragrance experience in one. Your hair stays silky, shiny, and full of life while carrying a subtle, elegant scent that lasts all day.</p>',
+        images: [
+          'assets/shopitems/item 30  (2).jpg'
+        ],
+        specs: {
+          'Brand': 'Luodais',
+          'Product': 'Golden Lure Pheromone Hair Oil',
+          'Size': '80ml',
+          'Type': 'Leave-in hair serum',
+          'Formula': 'Pheromone-infused with nourishing oils',
+          'Benefits': 'Shine, softness, fragrance, frizz control',
+          'Use': 'Natural hair, wigs, extensions, chemically treated hair'
+        },
+        related: ['pencil-flat-iron', 'slick-back-brush-wax-set', 'rat-tail-combs-3pc']
+      },
+      'sabalon-hair-spray': {
+        id: 32,
+        name: '💪 Sabalon Hair Spray – Super Firm Hold (420ml)',
+        category: 'Hair Care',
+        price: 14.99,
+        originalPrice: 18.99,
+        brand: 'Sabalon',
+        description: 'Keep your style locked in place with Sabalon Hair Spray, a professional-quality spray that delivers super firm hold for all-day confidence. With its lightweight, non-sticky formula, this 420ml spray keeps hair looking natural while resisting humidity, frizz, and flyaways. Suitable for all hair types, it\'s the go-to finishing spray for long-lasting style and shine.',
+        fullDescription: '<p><strong>💪 Sabalon Hair Spray – Super Firm Hold (420ml)</strong></p><p>Keep your style locked in place with Sabalon Hair Spray, a professional-quality spray that delivers super firm hold for all-day confidence. With its lightweight, non-sticky formula, this 420ml spray keeps hair looking natural while resisting humidity, frizz, and flyaways. Suitable for all hair types, it\'s the go-to finishing spray for long-lasting style and shine.</p><p><strong>Key Features:</strong></p><ul><li><strong>💪 Super Firm Hold</strong> – Keeps your hairstyle in place all day</li><li><strong>🌬️ Long-Lasting Control</strong> – Resistant to wind, humidity, and frizz</li><li><strong>🧑🏾‍🦱 Suitable for All Hair Types</strong> – Works on straight, curly, wavy, and textured hair</li><li><strong>✨ Lightweight & Non-Sticky</strong> – Doesn\'t weigh hair down or leave buildup</li><li><strong>💎 Natural Shine Finish</strong> – Holds your style while keeping hair looking healthy</li><li><strong>🧴 Large 420ml Bottle</strong> – Value size for everyday or professional salon use</li></ul><p><strong>Specifications:</strong></p><ul><li>Brand: Sabalon</li><li>Product: Super Firm Hold Hair Spray</li><li>Size: 420ml</li><li>Hold Level: Strong/Firm hold</li><li>Suitable For: All hair types</li><li>Finish: Natural shine</li><li>Usage: Everyday styling or professional use</li></ul><p><strong>Why You\'ll Love It:</strong><br>Perfect for creating lasting hairstyles without stiffness, Sabalon Hair Spray gives you reliable hold and control while leaving your hair touchably soft and fresh-looking.</p>',
+        images: [
+          'assets/shopitems/item 31 (1).jpg',
+          'assets/shopitems/item 31 (2).jpg'
+        ],
+        specs: {
+          'Brand': 'Sabalon',
+          'Product': 'Super Firm Hold Hair Spray',
+          'Size': '420ml',
+          'Hold Level': 'Strong/Firm hold',
+          'Suitable For': 'All hair types',
+          'Finish': 'Natural shine',
+          'Usage': 'Everyday styling or professional use',
+          'Formula': 'Lightweight & Non-Sticky'
+        },
+        related: ['luodais-pheromone-oil', 'pencil-flat-iron', 'slick-back-brush-wax-set']
+      },
+      'olive-oil-detangler': {
+        id: 33,
+        name: '🌿 Olive Oil Fix-It Wig Detangler – 6.2 oz',
+        category: 'Hair Care',
+        price: 16.99,
+        originalPrice: 19.99,
+        brand: 'Olive Oil Fix-It',
+        description: 'Keep your wigs and weaves looking fresh, smooth, and easy to manage with the Olive Oil Fix-It Wig Detangler. Infused with the nourishing power of olive oil and castor oil, this lightweight formula strengthens strands, adds moisture, and makes detangling effortless. Perfect for daily wig and weave maintenance, it restores softness and shine without buildup.',
+        fullDescription: '<p><strong>🌿 Olive Oil Fix-It Wig Detangler – 6.2 oz</strong></p><p>Keep your wigs and weaves looking fresh, smooth, and easy to manage with the Olive Oil Fix-It Wig Detangler. Infused with the nourishing power of olive oil and castor oil, this lightweight formula strengthens strands, adds moisture, and makes detangling effortless. Perfect for daily wig and weave maintenance, it restores softness and shine without buildup.</p><p><strong>Key Features:</strong></p><ul><li><strong>🌱 Olive Oil Infusion</strong> – Deeply moisturizes for softness and shine</li><li><strong>💧 Castor Oil Enriched</strong> – Strengthens hair fibers and promotes healthier strands</li><li><strong>🪄 Effortless Detangling</strong> – Reduces knots and tangles for easier styling</li><li><strong>🧑🏾‍🦱 For Wigs & Weaves</strong> – Specially designed to refresh synthetic and human hair units</li><li><strong>✨ Lightweight & Non-Greasy</strong> – Doesn\'t weigh down hair or leave residue</li><li><strong>🧴 Convenient Spray Bottle (6.2 oz)</strong> – Easy to apply for everyday use</li></ul><p><strong>Specifications:</strong></p><ul><li>Brand: Olive Oil Fix-It</li><li>Product: Wig & Weave Detangler</li><li>Size: 6.2 oz (spray bottle)</li><li>Infused With: Olive oil + castor oil</li><li>Benefits: Moisturizes, strengthens, smooths, detangles</li><li>Suitable For: Wigs, weaves, synthetic hair, and human hair units</li></ul><p><strong>Why You\'ll Love It:</strong><br>This detangler is the perfect daily refresh for your wigs and weaves—keeping them soft, manageable, and beautifully maintained with the added bonus of strengthening oils.</p>',
+        images: [
+          'assets/shopitems/item 32  (1).jpg',
+          'assets/shopitems/item 32  (2).jpg',
+          'assets/shopitems/item 32  (3).jpg',
+          'assets/shopitems/item 32  (4).jpg',
+          'assets/shopitems/item 32  (5).jpg',
+          'assets/shopitems/item 32  (6).jpg'
+        ],
+        specs: {
+          'Brand': 'Olive Oil Fix-It',
+          'Product': 'Wig & Weave Detangler',
+          'Size': '6.2 oz (spray bottle)',
+          'Infused With': 'Olive oil + castor oil',
+          'Benefits': 'Moisturizes, strengthens, smooths, detangles',
+          'Suitable For': 'Wigs, weaves, synthetic hair, and human hair units',
+          'Formula': 'Lightweight & Non-Greasy'
+        },
+        related: ['luodais-pheromone-oil', 'sabalon-hair-spray', 'pencil-flat-iron']
+      },
+      'professional-hair-brush': {
+        id: 34,
+        name: '💨 Professional Hair Brush – Curved Vented Paddle Design (Black-Nylon)',
+        category: 'Accessories / Tools',
+        price: 24.99,
+        originalPrice: 29.99,
+        brand: 'Professional',
+        description: 'Upgrade your hair routine with this Professional Curved Vented Hair Brush, designed for fast blow drying, detangling, and styling. The unique curved design follows the shape of your scalp for maximum comfort, while the vented structure allows air to pass through for quicker drying. Suitable for all hair types—wet or dry, curly, thick, or straight—this brush makes styling effortless for both women and men.',
+        fullDescription: '<p><strong>💨 Professional Hair Brush – Curved Vented Paddle Design (Black-Nylon)</strong></p><p>Upgrade your hair routine with this Professional Curved Vented Hair Brush, designed for fast blow drying, detangling, and styling. The unique curved design follows the shape of your scalp for maximum comfort, while the vented structure allows air to pass through for quicker drying. Suitable for all hair types—wet or dry, curly, thick, or straight—this brush makes styling effortless for both women and men.</p><p><strong>Key Features:</strong></p><ul><li><strong>💨 Curved & Vented Design</strong> – Speeds up blow drying by allowing better airflow</li><li><strong>🖤 Ergonomic Paddle Shape</strong> – Comfortably hugs the scalp for natural styling</li><li><strong>🧑🏾‍🦱 Detangling Bristles</strong> – Nylon bristles glide through knots without pulling</li><li><strong>✨ For All Hair Types</strong> – Works on wet, dry, curly, thick, wavy, or straight hair</li><li><strong>🧳 Lightweight & Durable</strong> – Perfect for everyday styling at home or in the salon</li><li><strong>👩🏾‍🦱👨🏾 Unisex Design</strong> – Ideal for women and men alike</li></ul><p><strong>Specifications:</strong></p><ul><li>Product: Professional Paddle Hair Brush</li><li>Design: Curved + vented for airflow</li><li>Material: Black nylon bristles with durable handle</li><li>Suitable For: Wet & dry hair, all textures</li><li>Use: Blow drying, detangling, everyday styling</li></ul><p><strong>Why You\'ll Love It:</strong><br>This brush cuts down drying time while giving you smooth, tangle-free, salon-quality results. A must-have tool for effortless daily hair care.</p>',
+        images: [
+          'assets/shopitems/item 33 (1).jpg',
+          'assets/shopitems/item 33 (2).jpg',
+          'assets/shopitems/item 33 (3).jpg'
+        ],
+        specs: {
+          'Product': 'Professional Paddle Hair Brush',
+          'Design': 'Curved + vented for airflow',
+          'Material': 'Black nylon bristles with durable handle',
+          'Suitable For': 'Wet & dry hair, all textures',
+          'Use': 'Blow drying, detangling, everyday styling',
+          'Features': 'Lightweight & Durable, Unisex Design'
+        },
+        related: ['pencil-flat-iron', 'rat-tail-combs-3pc', 'slick-back-brush-wax-set']
+      },
+      'teenitor-hair-kit': {
+        id: 35,
+        name: '📌 Teenitor 300pcs Bobby Pins & Hair Bands Kit',
+        category: 'Accessories / Tools',
+        price: 18.99,
+        originalPrice: 22.99,
+        brand: 'Teenitor',
+        description: 'Keep every hairstyle in place with the Teenitor 300pcs Hair Kit, a complete set that includes 100 bobby pins, 100 U-shaped hair pins, and 100 elastic hair bands. Perfect for buns, updos, braids, and everyday styling, this kit gives you the right tools for any occasion. With multiple sizes and strong, durable materials, it\'s designed for both casual use and professional hairstyling.',
+        fullDescription: '<p><strong>📌 Teenitor 300pcs Bobby Pins & Hair Bands Kit</strong></p><p>Keep every hairstyle in place with the Teenitor 300pcs Hair Kit, a complete set that includes 100 bobby pins, 100 U-shaped hair pins, and 100 elastic hair bands. Perfect for buns, updos, braids, and everyday styling, this kit gives you the right tools for any occasion. With multiple sizes and strong, durable materials, it\'s designed for both casual use and professional hairstyling.</p><p><strong>Key Features:</strong></p><ul><li><strong>📌 300-Piece Set</strong> – Includes 100 bobby pins, 100 U-shaped hair pins, and 100 elastic bands</li><li><strong>✨ Multiple Sizes</strong> – Hair pins come in 2 inch, 2.36 inch, and 2.75 inch options for all styles</li><li><strong>🧑🏾‍🦱 Secure Hold</strong> – Strong grip keeps hair in place without slipping</li><li><strong>💎 Durable & Reusable</strong> – High-quality materials ensure long-lasting use</li><li><strong>🎀 Versatile Styling</strong> – Ideal for buns, updos, braids, and everyday looks</li><li><strong>🧳 Compact & Organized Packaging</strong> – Easy to store and carry, perfect for travel</li></ul><p><strong>Specifications:</strong></p><ul><li>Brand: Teenitor</li><li>Product: Bobby Pins + Hair Pins + Hair Bands Kit</li><li>Quantity: 300 pieces total</li><li>100 Bobby Pins (Brown)</li><li>100 U-shaped Hair Pins</li><li>100 Elastic Hair Bands</li><li>Sizes: 2 inch, 2.36 inch, 2.75 inch</li><li>Suitable For: Women & girls, casual or professional styling</li></ul><p><strong>Why You\'ll Love It:</strong><br>This all-in-one kit makes hairstyling easy, organized, and reliable. Whether for daily use, special events, or salon work, you\'ll always have the right pin or band at hand.</p>',
+        images: [
+          'assets/shopitems/item 34 (1).jpg',
+          'assets/shopitems/item 34 (2).jpg',
+          'assets/shopitems/item 34 (3).jpg'
+        ],
+        specs: {
+          'Brand': 'Teenitor',
+          'Product': 'Bobby Pins + Hair Pins + Hair Bands Kit',
+          'Quantity': '300 pieces total',
+          'Includes': '100 Bobby Pins (Brown), 100 U-shaped Hair Pins, 100 Elastic Hair Bands',
+          'Sizes': '2 inch, 2.36 inch, 2.75 inch',
+          'Suitable For': 'Women & girls, casual or professional styling',
+          'Features': 'Durable & Reusable, Compact & Organized Packaging'
+        },
+        related: ['rat-tail-combs-3pc', 'slick-back-brush-wax-set', 'pencil-flat-iron']
+      },
+      'xtrend-satin-scarves': {
+        id: 36,
+        name: '💖 XTREND 2Pcs Satin Edge Scarves for Wigs – 58 Inch',
+        category: 'Accessories / Tools',
+        price: 15.99,
+        originalPrice: 19.99,
+        brand: 'XTREND',
+        description: 'Keep your wigs and edges secure in style with the XTREND 2Pcs Satin Edge Scarves. Designed with a soft satin finish, these long scarves are perfect for laying lace wigs, protecting edges, or wrapping hair during daily routines and workouts.',
+        fullDescription: '<p><strong>💖 XTREND 2Pcs Satin Edge Scarves for Wigs – 58 Inch</strong></p><p>Keep your wigs and edges secure in style with the XTREND 2Pcs Satin Edge Scarves. Designed with a soft satin finish, these long scarves are perfect for laying lace wigs, protecting edges, or wrapping hair during daily routines and workouts.</p><p><strong>✨ Product Highlights:</strong></p><ul><li><strong>💖 Perfect Wig & Hair Care Accessory</strong></li><li><strong>2 Pieces Included:</strong> 1 Pink + 1 Black for versatile styling</li><li><strong>Premium Satin Fabric:</strong> Gentle on hair, reduces friction, and prevents breakage</li><li><strong>Extra-Long Size (58 inches):</strong> Perfect for tying securely around wigs and edges</li><li><strong>Non-Slip Grip:</strong> Keeps wigs and lace fronts in place all day</li><li><strong>Multi-Use:</strong> Ideal for yoga, makeup, skincare, sports, or daily wear</li></ul><p><strong>📏 Specifications:</strong></p><ul><li>Length: 58 inches</li><li>Material: Satin (Lightweight & Smooth)</li><li>Colors: Pink & Black (Set of 2)</li></ul><p><strong>💎 Why You\'ll Love It:</strong><br>Whether you\'re getting ready for a night out, doing yoga, or setting your lace wig, these satin edge scarves keep your hair neat, laid, and stylish. A must-have accessory for wig lovers and everyday edge care.</p>',
+        images: [
+          'assets/shopitems/item 35 (1).jpg',
+          'assets/shopitems/item 35 (2).jpg',
+          'assets/shopitems/item 35 (3).jpg'
+        ],
+        specs: {
+          'Brand': 'XTREND',
+          'Product': 'Satin Edge Scarves for Wigs',
+          'Length': '58 inches',
+          'Material': 'Satin (Lightweight & Smooth)',
+          'Colors': 'Pink & Black (Set of 2)',
+          'Features': 'Non-Slip Grip, Multi-Use',
+          'Suitable For': 'Wig laying, edge protection, daily wear'
+        },
+        related: ['rat-tail-combs-3pc', 'slick-back-brush-wax-set', 'professional-hair-brush']
+      },
+      'anezus-satin-headbands': {
+        id: 37,
+        name: '🌈 Anezus 16 Pcs Satin Headbands – Multicolor (1 Inch)',
+        category: 'Accessories / Tools',
+        price: 14.99,
+        originalPrice: 17.99,
+        brand: 'Anezus',
+        description: 'Add a pop of color and style to your everyday look with the Anezus Satin Headbands. These plain, hard headbands are covered in smooth satin ribbon for a chic finish and come in 16 different colors to match any outfit or occasion. Great for daily wear, parties, or craft projects like DIY hair accessories.',
+        fullDescription: '<p><strong>🌈 Anezus 16 Pcs Satin Headbands – Multicolor (1 Inch)</strong></p><p>Add a pop of color and style to your everyday look with the Anezus Satin Headbands. These plain, hard headbands are covered in smooth satin ribbon for a chic finish and come in 16 different colors to match any outfit or occasion. Great for daily wear, parties, or craft projects like DIY hair accessories.</p><p><strong>✨ Product Highlights:</strong></p><ul><li><strong>🌈 Stylish, Comfortable & Perfect for DIY</strong></li><li><strong>16-Piece Value Pack:</strong> A variety of colors to mix and match</li><li><strong>Premium Satin Finish:</strong> Soft, smooth, and comfortable to wear</li><li><strong>1-Inch Wide Design:</strong> Stays secure without slipping</li><li><strong>Durable Hard Headband:</strong> Flexible and sturdy for long-lasting use</li><li><strong>DIY-Friendly:</strong> Perfect for adding embellishments like bows, flowers, or beads</li></ul><p><strong>📏 Specifications:</strong></p><ul><li>Quantity: 16 pieces</li><li>Width: 1 inch</li><li>Material: Satin ribbon + hard plastic base</li><li>Colors: Multicolor set</li></ul><p><strong>💎 Why You\'ll Love It:</strong><br>From casual days to special events, these satin headbands are versatile, stylish, and perfect for women, girls, and even crafters who love to design their own hair accessories.</p>',
+        images: [
+          'assets/shopitems/item 36 (1).jpg',
+          'assets/shopitems/item 36 (2).jpg',
+          'assets/shopitems/item 36 (3).jpg',
+          'assets/shopitems/item 36 (4).jpg',
+          'assets/shopitems/item 36 (5).jpg'
+        ],
+        specs: {
+          'Brand': 'Anezus',
+          'Product': 'Satin Headbands – Multicolor',
+          'Quantity': '16 pieces',
+          'Width': '1 inch',
+          'Material': 'Satin ribbon + hard plastic base',
+          'Colors': 'Multicolor set',
+          'Features': 'DIY-Friendly, Versatile Styling',
+          'Suitable For': 'Daily wear, parties, craft projects'
+        },
+        related: ['rat-tail-combs-3pc', 'slick-back-brush-wax-set', 'xtrend-satin-scarves']
+      },
+      'lace-tint-mousse': {
+        id: 38,
+        name: '✨ Lace Tint Melting Hair Mousse – Light Brown (6.8 fl oz)',
+        category: 'Wig Care',
+        price: 19.99,
+        originalPrice: 24.99,
+        brand: 'Lace Tint',
+        description: 'Achieve a flawless, undetectable look with the Lace Tint Melting Hair Mousse. Specially formulated to blend lace seamlessly with your skin tone, this mousse offers a light brown tint that creates a natural finish for lace wigs, toupees, and hairpieces. Easy to apply and lightweight, it melts lace into the scalp for a professional, salon-quality look.',
+        fullDescription: '<p><strong>✨ Lace Tint Melting Hair Mousse – Light Brown (6.8 fl oz)</strong></p><p>Achieve a flawless, undetectable look with the Lace Tint Melting Hair Mousse. Specially formulated to blend lace seamlessly with your skin tone, this mousse offers a light brown tint that creates a natural finish for lace wigs, toupees, and hairpieces. Easy to apply and lightweight, it melts lace into the scalp for a professional, salon-quality look.</p><p><strong>🔥 Key Features:</strong></p><ul><li><strong>✨ Natural Finish for Wigs, Toupees & Hairpieces</strong></li><li><strong>Natural Lace Tint:</strong> Enhances lace color for a seamless, realistic appearance</li><li><strong>Lightweight Formula:</strong> Non-greasy mousse that dries quickly</li><li><strong>Easy Application:</strong> Apply directly to lace with no mess or buildup</li><li><strong>Versatile Use:</strong> Perfect for lace front wigs, closures, toupees, and hairpieces</li><li><strong>Professional Finish:</strong> Achieve salon-quality lace blending at home</li></ul><p><strong>📏 Specifications:</strong></p><ul><li>Type: Lace Tint Mousse</li><li>Shade: Light Brown</li><li>Volume: 6.8 fl oz</li><li>Suitable For: Women\'s wigs, lace wigs, toupees, hairpieces</li></ul><p><strong>💎 Why You\'ll Love It:</strong><br>No more visible lace lines! This melting mousse ensures a smooth, natural transition between lace and skin, making your wig look effortlessly real.</p>',
+        images: [
+          'assets/shopitems/item 37 (1).jpg',
+          'assets/shopitems/item 37 (2).jpg',
+          'assets/shopitems/item 37 (3).jpg',
+          'assets/shopitems/item 37 (4).jpg',
+          'assets/shopitems/item 37 (5).jpg',
+          'assets/shopitems/item 37 (6).jpg'
+        ],
+        specs: {
+          'Brand': 'Lace Tint',
+          'Product': 'Melting Hair Mousse – Light Brown',
+          'Type': 'Lace Tint Mousse',
+          'Shade': 'Light Brown',
+          'Volume': '6.8 fl oz',
+          'Formula': 'Lightweight & Non-Greasy',
+          'Suitable For': 'Wigs, lace wigs, toupees, hairpieces',
+          'Finish': 'Natural, Seamless Blend'
+        },
+        related: ['luodais-pheromone-oil', 'sabalon-hair-spray', 'olive-oil-detangler']
+      },
+      'wig-tape-adhesive': {
+        id: 39,
+        name: '💎 36pcs Wig Tape – Double Sided Waterproof Lace Front Adhesive',
+        category: 'Wig Care',
+        price: 12.99,
+        originalPrice: 16.99,
+        brand: 'Wig Tape',
+        description: 'Keep your wig secure and flawless all day with the Waterproof Double-Sided Lace Front Wig Tapes. Designed for strong, long-lasting adhesion, these clear wig tapes provide a natural, invisible finish while keeping your wig or toupee in place. Perfect for daily wear, special occasions, or professional styling.',
+        fullDescription: '<p><strong>💎 36pcs Wig Tape – Double Sided Waterproof Lace Front Adhesive</strong></p><p>Keep your wig secure and flawless all day with the Waterproof Double-Sided Lace Front Wig Tapes. Designed for strong, long-lasting adhesion, these clear wig tapes provide a natural, invisible finish while keeping your wig or toupee in place. Perfect for daily wear, special occasions, or professional styling.</p><p><strong>✨ Key Features:</strong></p><ul><li><strong>💎 Strong Hold | Clear | For Wigs, Toupees & Hairpieces</strong></li><li><strong>Strong Hold:</strong> Long-lasting adhesive keeps wigs secure</li><li><strong>Waterproof Design:</strong> Sweat-proof and moisture-resistant for all-day wear</li><li><strong>Invisible Finish:</strong> Clear tape blends seamlessly with lace for a natural look</li><li><strong>Double-Sided Adhesive:</strong> Easy application and removal without residue</li><li><strong>Multi-Purpose:</strong> Suitable for lace front wigs, toupees, and hairpieces</li></ul><p><strong>📦 Specifications:</strong></p><ul><li>Quantity: 36 pieces</li><li>Type: Double-sided wig tape</li><li>Color: Clear</li><li>Features: Waterproof, strong hold, skin-safe adhesive</li></ul><p><strong>💎 Why You\'ll Love It:</strong><br>Enjoy confidence, comfort, and a natural look with wig tapes that are built for durability and all-day security.</p>',
+        images: [
+          'assets/shopitems/item 38 (1).jpg',
+          'assets/shopitems/item 38 (2).jpg',
+          'assets/shopitems/item 38 (3).jpg',
+          'assets/shopitems/item 38 (4).jpg',
+          'assets/shopitems/item 38 (5).jpg'
+        ],
+        specs: {
+          'Brand': 'Wig Tape',
+          'Product': 'Double Sided Waterproof Lace Front Adhesive',
+          'Quantity': '36 pieces',
+          'Type': 'Double-sided wig tape',
+          'Color': 'Clear',
+          'Features': 'Waterproof, strong hold, skin-safe adhesive',
+          'Suitable For': 'Wigs, lace front wigs, toupees, hairpieces',
+          'Hold': 'Long-lasting, all-day security'
+        },
+        related: ['lace-tint-mousse', 'olive-oil-detangler', 'sabalon-hair-spray']
+      },
+      'cordless-curling-iron': {
+        id: 40,
+        name: '💇‍♀️ Adjustable Wig Stand with Mannequin Head & Clamp – Black',
+        category: 'Tools & Appliances',
+        price: 29.99,
+        originalPrice: 39.99,
+        brand: 'Wig Stand Pro',
+        description: '💇‍♀️ Perfect for Wig Styling, Display & Storage. Keep your wigs in shape and style with the Adjustable Wig Stand with Head. Designed with a sturdy base and a lifelike mannequin head, this stand is perfect for styling, drying, displaying, or storing wigs. The height-adjustable design makes it versatile for different styling needs, while the extra clamp stand provides added stability during use.',
+        fullDescription: '<p><strong>💇‍♀️ Adjustable Wig Stand with Mannequin Head & Clamp – Black</strong></p><p>Keep your wigs in shape and style with the Adjustable Wig Stand with Head. Designed with a sturdy base and a lifelike mannequin head, this stand is perfect for styling, drying, displaying, or storing wigs. The height-adjustable design makes it versatile for different styling needs, while the extra clamp stand provides added stability during use.</p><p><strong>✨ Key Features:</strong></p><ul><li><strong>💇‍♀️ Perfect for Wig Styling, Display & Storage</strong></li><li><strong>Height Adjustable:</strong> Easily customize the stand to your preferred working height</li><li><strong>Mannequin Head Included:</strong> Ideal for wig styling, braiding, cutting, and display</li><li><strong>Sturdy Clamp Stand:</strong> Keeps your wig head stable and secure while working</li><li><strong>Durable Construction:</strong> Strong, long-lasting material with sleek black finish</li><li><strong>Multi-Purpose Use:</strong> Suitable for wig making, styling, drying, and showcasing</li></ul><p><strong>📏 Specifications:</strong></p><ul><li>Color: Black</li><li>Includes: Adjustable wig stand, mannequin head, extra clamp stand</li><li>Use: Wig styling, storage, display, drying, cutting, braiding</li></ul><p><strong>💎 Why You\'ll Love It:</strong><br>Whether you\'re a professional stylist or a wig lover, this stand makes wig care easier, more professional, and more organized.</p>',
+        images: [
+          'assets/shopitems/item 40  (1).jpg',
+          'assets/shopitems/item 40  (2).jpg',
+          'assets/shopitems/item 40  (3).jpg',
+          'assets/shopitems/item 40  (4).jpg',
+          'assets/shopitems/item 40  (5).jpg'
+        ],
+        specs: {
+          'Brand': 'Wig Stand Pro',
+          'Product': 'Adjustable Wig Stand with Mannequin Head & Clamp',
+          'Color': 'Black',
+          'Includes': 'Adjustable wig stand, mannequin head, extra clamp stand',
+          'Features': 'Height Adjustable, Sturdy Clamp Stand, Durable Construction',
+          'Use': 'Wig styling, storage, display, drying, cutting, braiding',
+          'Design': 'Multi-Purpose, Professional Quality'
+        },
+        related: ['professional-hair-brush', 'teenitor-hair-kit', 'wig-tape-adhesive']
+      }
+    };
+
+    function loadProduct() {
+      const urlParams = new URLSearchParams(window.location.search);
+      const productId = urlParams.get('id');
+      const product = products[productId] || products['silky-straight'];
+      
+      // Update page title
+      document.title = `${product.name} - Wigtopia`;
+      
+      // Update breadcrumbs
+      document.getElementById('product-category-breadcrumb').textContent = product.category;
+      document.getElementById('product-name-breadcrumb').textContent = product.name;
+      document.getElementById('product-category-display').textContent = product.category;
+      
+      // Update product info
+      document.getElementById('product-title').textContent = product.name;
+      document.getElementById('product-price').textContent = product.price.toFixed(2);
+      const originalPriceEl = document.getElementById('original-price');
+      if (product.originalPrice) {
+        originalPriceEl.textContent = `$${product.originalPrice.toFixed(2)}`;
+        originalPriceEl.style.display = 'inline';
+      } else {
+        originalPriceEl.style.display = 'none';
+      }
+      document.getElementById('product-brand').textContent = product.brand;
+      document.getElementById('product-description').textContent = product.description;
+      
+      // Full description
+      if (product.fullDescription) {
+        document.getElementById('product-full-description').innerHTML = product.fullDescription;
+      }
+      
+      // Specifications
+      if (product.specs) {
+        const specsContainer = document.getElementById('product-specs');
+        specsContainer.innerHTML = '';
+        for (const [key, value] of Object.entries(product.specs)) {
+          const row = document.createElement('tr');
+          row.innerHTML = `<th scope="row">${key}:</th><td>${value}</td>`;
+          specsContainer.appendChild(row);
+        }
+      }
+      
+      // Images
+      const mainImage = document.getElementById('main-image');
+      const thumbnailContainer = document.getElementById('thumbnail-container');
+      if (product.images && product.images.length > 0) {
+        mainImage.src = product.images[0];
+        mainImage.alt = product.name;
+        thumbnailContainer.innerHTML = '';
+        product.images.forEach((image, index) => {
+          const thumbnail = document.createElement('img');
+          thumbnail.src = image;
+          thumbnail.alt = `${product.name} - View ${index + 1}`;
+          thumbnail.className = `thumbnail ${index === 0 ? 'active' : ''}`;
+          thumbnail.addEventListener('click', () => {
+            mainImage.src = image;
+            mainImage.alt = thumbnail.alt;
+            document.querySelectorAll('.thumbnail').forEach(thumb => thumb.classList.remove('active'));
+            thumbnail.classList.add('active');
+          });
+          thumbnailContainer.appendChild(thumbnail);
+        });
+      }
+      
+      // Related Products
+      if (product.related) {
+        const relatedContainer = document.getElementById('related-products');
+        relatedContainer.innerHTML = '';
+        product.related.forEach(relatedId => {
+          const relatedProduct = products[relatedId];
+          if (relatedProduct && relatedProduct.images.length > 0) {
+            const col = document.createElement('div');
+            col.className = 'col-6 col-md-4 col-lg-3 mb-4';
+            col.innerHTML = `
+              <div class="card h-100">
+                <img src="${relatedProduct.images[0]}" class="card-img-top" alt="${relatedProduct.name}" style="height: 200px; object-fit: cover;">
+                <div class="card-body d-flex flex-column">
+                  <h5 class="card-title">${relatedProduct.name}</h5>
+                  <p class="card-text text-primary fw-bold mb-auto">$${relatedProduct.price.toFixed(2)}</p>
+                  <a href="?id=${relatedId}" class="btn btn-primary mt-auto">View Details</a>
+                </div>
+              </div>
+            `;
+            relatedContainer.appendChild(col);
+          }
+        });
+      }
+    }
+
+    // Event Listeners
+    document.addEventListener('DOMContentLoaded', function() {
+      loadProduct();
+      updateCartCount();
+
+      // Quantity Controls
+      const quantityInput = document.getElementById('quantity');
+      document.getElementById('decrease-qty').addEventListener('click', () => {
+        let val = parseInt(quantityInput.value);
+        if (val > 1) quantityInput.value = val - 1;
+      });
+      document.getElementById('increase-qty').addEventListener('click', () => {
+        let val = parseInt(quantityInput.value);
+        quantityInput.value = val + 1;
+      });
+
+      // Add to Cart
+      document.getElementById('add-to-cart').addEventListener('click', () => {
+        const urlParams = new URLSearchParams(window.location.search);
+        const productId = urlParams.get('id');
+        const product = products[productId] || products['silky-straight'];
+        const qty = parseInt(quantityInput.value);
+        addToCart(product.id, product.name, product.price, product.images[0], qty);
+      });
+
+      // Add to Wishlist
+      document.getElementById('add-to-wishlist').addEventListener('click', (e) => {
+        e.preventDefault();
+        const urlParams = new URLSearchParams(window.location.search);
+        const productId = urlParams.get('id');
+        const product = products[productId] || products['silky-straight'];
+        let wishlist = JSON.parse(localStorage.getItem('wigtopiaWishlist')) || [];
+        if (!wishlist.includes(product.id)) {
+          wishlist.push(product.id);
+          localStorage.setItem('wigtopiaWishlist', JSON.stringify(wishlist));
+          showToast('wishlistToast', `${product.name} added to wishlist!`);
+          e.target.classList.add('text-danger');
+          e.target.querySelector('i').classList.add('bi-heart-fill');
+        }
+      });
+
+      // Cart Toggle (links to shop or cart page)
+      document.getElementById('cart-toggle')?.addEventListener('click', (e) => {
+        e.preventDefault();
+        window.location.href = 'page4.html'; // Or dedicated cart page
+      });
+    });
+  </script>
+</body>
+</html>
